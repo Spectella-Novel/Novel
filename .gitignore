@@ -1,0 +1,38 @@
+# Файлы и папки, которые не следует отслеживать в Git
+
+# Файлы сборки и временные файлы
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userosscache
+*.pidb
+*.mdb
+
+# Файлы и папки, генерируемые Unity
+Library/
+Temp/
+Obj/
+*.unity3d
+*.unitypackage
+*.asset
+
+# Файлы и папки, связанные с редактором Unity
+Editor/
+Editor/User/
+
+# Файлы и папки, связанные с платформами
+Android/
+iOS/
+Windows/
+MacOS/
+Linux/
+
+# Другие файлы и папки, которые не следует отслеживать
+*.DS_Store
+Thumbs.db
+ehthumbs.db
+*.tmp
+*.log
+/Builds

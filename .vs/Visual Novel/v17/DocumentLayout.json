@@ -1,0 +1,378 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Repos\\Visual Novel\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|d:\\repos\\visual novel\\assets\\scripts\\dialogue system\\nodes\\editors\\datanodeeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialogue system\\nodes\\editors\\datanodeeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|D:\\Repos\\Visual Novel\\assets\\scripts\\dialogue system\\nodes\\editors\\changenodeeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialogue system\\nodes\\editors\\changenodeeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD241BBA-8D42-3F32-A432-3AFA6D02D71F}|XNodeEditor.csproj|d:\\repos\\visual novel\\assets\\scripts\\xnode-master\\scripts\\editor\\graphandnodeeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD241BBA-8D42-3F32-A432-3AFA6D02D71F}|XNodeEditor.csproj|solutionrelative:assets\\scripts\\xnode-master\\scripts\\editor\\graphandnodeeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD241BBA-8D42-3F32-A432-3AFA6D02D71F}|XNodeEditor.csproj|d:\\repos\\visual novel\\assets\\scripts\\xnode-master\\scripts\\editor\\advancedgenericmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD241BBA-8D42-3F32-A432-3AFA6D02D71F}|XNodeEditor.csproj|solutionrelative:assets\\scripts\\xnode-master\\scripts\\editor\\advancedgenericmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|D:\\Repos\\Visual Novel\\assets\\scripts\\dialogue system\\dialoguescripts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialogue system\\dialoguescripts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|D:\\Repos\\Visual Novel\\assets\\scripts\\dialogue system\\nodes\\entrypoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialogue system\\nodes\\entrypoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|D:\\Repos\\Visual Novel\\assets\\scripts\\dialogue system\\dsgraph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialogue system\\dsgraph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|D:\\Repos\\Visual Novel\\assets\\scripts\\dialogue system\\nodes\\datanode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialogue system\\nodes\\datanode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|D:\\Repos\\Visual Novel\\assets\\scripts\\dialogue system\\nodes\\datanodebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialogue system\\nodes\\datanodebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD241BBA-8D42-3F32-A432-3AFA6D02D71F}|XNodeEditor.csproj|D:\\Repos\\Visual Novel\\assets\\scripts\\xnode-master\\scripts\\editor\\nodeeditoraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD241BBA-8D42-3F32-A432-3AFA6D02D71F}|XNodeEditor.csproj|solutionrelative:assets\\scripts\\xnode-master\\scripts\\editor\\nodeeditoraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|D:\\Repos\\Visual Novel\\assets\\scripts\\dialogue system\\nodes\\nodebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialogue system\\nodes\\nodebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|D:\\Repos\\Visual Novel\\assets\\scripts\\dialogue system\\nodes\\dialoguenode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialogue system\\nodes\\dialoguenode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E18FD83C-6889-4C01-2663-05C2C8F6D8E8}|XNode.csproj|D:\\Repos\\Visual Novel\\assets\\scripts\\xnode-master\\scripts\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E18FD83C-6889-4C01-2663-05C2C8F6D8E8}|XNode.csproj|solutionrelative:assets\\scripts\\xnode-master\\scripts\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E18FD83C-6889-4C01-2663-05C2C8F6D8E8}|XNode.csproj|D:\\Repos\\Visual Novel\\assets\\scripts\\xnode-master\\scripts\\nodegraph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E18FD83C-6889-4C01-2663-05C2C8F6D8E8}|XNode.csproj|solutionrelative:assets\\scripts\\xnode-master\\scripts\\nodegraph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|D:\\Repos\\Visual Novel\\assets\\scripts\\dialogue system\\data\\utility\\dictionaryutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialogue system\\data\\utility\\dictionaryutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E18FD83C-6889-4C01-2663-05C2C8F6D8E8}|XNode.csproj|D:\\Repos\\Visual Novel\\assets\\scripts\\xnode-master\\scripts\\nodeport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E18FD83C-6889-4C01-2663-05C2C8F6D8E8}|XNode.csproj|solutionrelative:assets\\scripts\\xnode-master\\scripts\\nodeport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|D:\\Repos\\Visual Novel\\assets\\scripts\\dialogue system\\nodes\\changenode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialogue system\\nodes\\changenode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|D:\\Repos\\Visual Novel\\assets\\scripts\\dialogue system\\nodes\\scenenode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialogue system\\nodes\\scenenode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|D:\\Repos\\Visual Novel\\assets\\scripts\\dialogue system\\enums\\noveltypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialogue system\\enums\\noveltypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|D:\\Repos\\Visual Novel\\assets\\scripts\\dialogue system\\data\\serializabledictionary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialogue system\\data\\serializabledictionary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95158BD2-5E56-A58A-1DC4-F5ACD1644C21}|Unity.VisualStudio.Editor.csproj|D:\\Repos\\Visual Novel\\library\\packagecache\\com.unity.ide.visualstudio@2.0.18\\editor\\visualstudiointegration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95158BD2-5E56-A58A-1DC4-F5ACD1644C21}|Unity.VisualStudio.Editor.csproj|solutionrelative:library\\packagecache\\com.unity.ide.visualstudio@2.0.18\\editor\\visualstudiointegration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|D:\\Repos\\Visual Novel\\assets\\scripts\\dialogue system\\data\\datakey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialogue system\\data\\datakey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ChangeNode.cs",
+              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Dialogue System\\Nodes\\ChangeNode.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Dialogue System\\Nodes\\ChangeNode.cs",
+              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Dialogue System\\Nodes\\ChangeNode.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Dialogue System\\Nodes\\ChangeNode.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T09:50:37.336Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DataNodeBase.cs",
+              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Dialogue System\\Nodes\\DataNodeBase.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Dialogue System\\Nodes\\DataNodeBase.cs",
+              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Dialogue System\\Nodes\\DataNodeBase.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Dialogue System\\Nodes\\DataNodeBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T13:56:32.886Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GraphAndNodeEditor.cs",
+              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\xNode-master\\Scripts\\Editor\\GraphAndNodeEditor.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\xNode-master\\Scripts\\Editor\\GraphAndNodeEditor.cs",
+              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\xNode-master\\Scripts\\Editor\\GraphAndNodeEditor.cs",
+              "RelativeToolTip": "Assets\\Scripts\\xNode-master\\Scripts\\Editor\\GraphAndNodeEditor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T10:59:08.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdvancedGenericMenu.cs",
+              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\xNode-master\\Scripts\\Editor\\AdvancedGenericMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\xNode-master\\Scripts\\Editor\\AdvancedGenericMenu.cs",
+              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\xNode-master\\Scripts\\Editor\\AdvancedGenericMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\xNode-master\\Scripts\\Editor\\AdvancedGenericMenu.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T10:58:50.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DataNodeEditor.cs",
+              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Dialogue System\\Nodes\\Editors\\DataNodeEditor.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Dialogue System\\Nodes\\Editors\\DataNodeEditor.cs",
+              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Dialogue System\\Nodes\\Editors\\DataNodeEditor.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Dialogue System\\Nodes\\Editors\\DataNodeEditor.cs",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAAAF0AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T13:45:06.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DialogueScripts.cs",
+              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Dialogue System\\DialogueScripts.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Dialogue System\\DialogueScripts.cs",
+              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Dialogue System\\DialogueScripts.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Dialogue System\\DialogueScripts.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAD4AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T08:33:09.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChangeNodeEditor.cs",
+              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Dialogue System\\Nodes\\Editors\\ChangeNodeEditor.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Dialogue System\\Nodes\\Editors\\ChangeNodeEditor.cs",
+              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Dialogue System\\Nodes\\Editors\\ChangeNodeEditor.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Dialogue System\\Nodes\\Editors\\ChangeNodeEditor.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAADYAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T13:43:37.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DSGraph.cs",
+              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Dialogue System\\DSGraph.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Dialogue System\\DSGraph.cs",
+              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Dialogue System\\DSGraph.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Dialogue System\\DSGraph.cs",
+              "ViewState": "AQIAAHgAAAAAAAAAAAAAAIgAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T15:37:36.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EntryPoint.cs",
+              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Dialogue System\\Nodes\\EntryPoint.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Dialogue System\\Nodes\\EntryPoint.cs",
+              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Dialogue System\\Nodes\\EntryPoint.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Dialogue System\\Nodes\\EntryPoint.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T07:02:15.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DataNode.cs",
+              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Dialogue System\\Nodes\\DataNode.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Dialogue System\\Nodes\\DataNode.cs",
+              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Dialogue System\\Nodes\\DataNode.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Dialogue System\\Nodes\\DataNode.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T15:26:45.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NodeEditorAction.cs",
+              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\xNode-master\\Scripts\\Editor\\NodeEditorAction.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\xNode-master\\Scripts\\Editor\\NodeEditorAction.cs",
+              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\xNode-master\\Scripts\\Editor\\NodeEditorAction.cs",
+              "RelativeToolTip": "Assets\\Scripts\\xNode-master\\Scripts\\Editor\\NodeEditorAction.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAADAAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T10:14:41.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "NodeBase.cs",
+              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Dialogue System\\Nodes\\NodeBase.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Dialogue System\\Nodes\\NodeBase.cs",
+              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Dialogue System\\Nodes\\NodeBase.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Dialogue System\\Nodes\\NodeBase.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T13:17:48.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DialogueNode.cs",
+              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Dialogue System\\Nodes\\DialogueNode.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Dialogue System\\Nodes\\DialogueNode.cs",
+              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Dialogue System\\Nodes\\DialogueNode.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Dialogue System\\Nodes\\DialogueNode.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T13:59:41.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Node.cs",
+              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\xNode-master\\Scripts\\Node.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\xNode-master\\Scripts\\Node.cs",
+              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\xNode-master\\Scripts\\Node.cs",
+              "RelativeToolTip": "Assets\\Scripts\\xNode-master\\Scripts\\Node.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAWwHgAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T08:59:31.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "NodeGraph.cs",
+              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\xNode-master\\Scripts\\NodeGraph.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\xNode-master\\Scripts\\NodeGraph.cs",
+              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\xNode-master\\Scripts\\NodeGraph.cs",
+              "RelativeToolTip": "Assets\\Scripts\\xNode-master\\Scripts\\NodeGraph.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T17:10:40.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DictionaryUtils.cs",
+              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Dialogue System\\Data\\Utility\\DictionaryUtils.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Dialogue System\\Data\\Utility\\DictionaryUtils.cs",
+              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Dialogue System\\Data\\Utility\\DictionaryUtils.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Dialogue System\\Data\\Utility\\DictionaryUtils.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAApwD0AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T15:27:28.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "NodePort.cs",
+              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\xNode-master\\Scripts\\NodePort.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\xNode-master\\Scripts\\NodePort.cs",
+              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\xNode-master\\Scripts\\NodePort.cs",
+              "RelativeToolTip": "Assets\\Scripts\\xNode-master\\Scripts\\NodePort.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAApwCgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T15:12:34.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "VisualStudioIntegration.cs",
+              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Library\\PackageCache\\com.unity.ide.visualstudio@2.0.18\\Editor\\VisualStudioIntegration.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.ide.visualstudio@2.0.18\\Editor\\VisualStudioIntegration.cs",
+              "ToolTip": "D:\\Repos\\Visual Novel\\Library\\PackageCache\\com.unity.ide.visualstudio@2.0.18\\Editor\\VisualStudioIntegration.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.ide.visualstudio@2.0.18\\Editor\\VisualStudioIntegration.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAMwDYAAADIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T15:21:46.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SceneNode.cs",
+              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Dialogue System\\Nodes\\SceneNode.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Dialogue System\\Nodes\\SceneNode.cs",
+              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Dialogue System\\Nodes\\SceneNode.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Dialogue System\\Nodes\\SceneNode.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAtwBMAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T16:18:45.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "NovelTypes.cs",
+              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Dialogue System\\Enums\\NovelTypes.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Dialogue System\\Enums\\NovelTypes.cs",
+              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Dialogue System\\Enums\\NovelTypes.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Dialogue System\\Enums\\NovelTypes.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T13:13:22.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SerializableDictionary.cs",
+              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Dialogue System\\Data\\SerializableDictionary.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Dialogue System\\Data\\SerializableDictionary.cs",
+              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Dialogue System\\Data\\SerializableDictionary.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Dialogue System\\Data\\SerializableDictionary.cs",
+              "ViewState": "AQIAAEoAAAAAAAAAAAASwGUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T15:28:46.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DataKey.cs",
+              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Dialogue System\\Data\\DataKey.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Dialogue System\\Data\\DataKey.cs",
+              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Dialogue System\\Data\\DataKey.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Dialogue System\\Data\\DataKey.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAewBAAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T13:48:13.135Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
