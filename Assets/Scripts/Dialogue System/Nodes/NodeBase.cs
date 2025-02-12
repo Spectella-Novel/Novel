@@ -11,7 +11,7 @@ namespace DialogueSystem.Nodes
     public abstract class NodeBase<T> : Node
     {
         // Инициализация словаря для избежания NullReferenceException.
-        public SerializableDictionary<T, UnityEngine.Object> Data = new();
+        public SerializableDictionary<T, System.Object> Data = new();
         
         public List<NodeBase<T>> InputsDataNode = new List<NodeBase<T>>();
 
@@ -26,7 +26,7 @@ namespace DialogueSystem.Nodes
         /// <summary>
         /// Сохраняет объект в словаре, используя ключ, составленный из runtime-типа объекта и метки.
         /// </summary>
-        public void Set<V>(T mark, V value) where V : UnityEngine.Object
+        public void Set(T mark, System.Object value)
         {
             if (value == null)
             {
@@ -43,11 +43,11 @@ namespace DialogueSystem.Nodes
         /// <summary>
         /// Извлекает объект из словаря по ключу, составленному из типа T и метки.
         /// </summary>
-        public V Get<V>(T mark) where V : UnityEngine.Object
+        public System.Object Get(T mark) 
         {
             if (Data.TryGetValue(mark, out var value))
             {
-                return value as V;
+                return value;
             }
             return null;
         }
@@ -60,13 +60,14 @@ namespace DialogueSystem.Nodes
             }
         }
 
-        public virtual IDictionary<T, UnityEngine.Object> ModifyData(IDictionary<T, UnityEngine.Object> data)
+        public virtual IDictionary<T, System.Object> ModifyData(IDictionary<T, System.Object> data)
         {
+            data.Clear();
             var modifyData = data.MergeDictionaries(Data);
             return modifyData;
         }
 
-        public virtual void UpdateData(IDictionary<T, UnityEngine.Object> data)
+        public virtual void UpdateData(IDictionary<T, System.Object> data)
         {
             Data = new(data);
         }
@@ -108,12 +109,8 @@ namespace DialogueSystem.Nodes
 
             if (toNode == this) {
                 InputsDataNode.Add(fromNode);
-                return; 
-            }
-                
-            if(fromNode == this)
-            {
                 OnChange();
+                return; 
             }
         }
 

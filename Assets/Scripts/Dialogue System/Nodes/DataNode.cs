@@ -1,14 +1,19 @@
 ﻿using DialogueSystem.Enums;
 using System.Collections.Generic;
+using UnityEngine;
 
 namespace DialogueSystem.Nodes
 {
 
-    public class DataNode : DataNodeBase<NovelTypes.Prefab>
+    public class DataNode : DataNodeBase
     {
-        public override IDictionary<NovelTypes.Prefab, UnityEngine.Object> ModifyData(IDictionary<NovelTypes.Prefab, UnityEngine.Object> data)
+        [SerializeField] public NovelTypes.Prefab PrefabType;
+
+        // Прямая ссылка на префаб (не сериализуется корректно через JSON)
+        [SerializeField] public UnityEngine.Object Prefab;
+
+        public override IDictionary<NovelTypes.Prefab, System.Object> ModifyData(IDictionary<NovelTypes.Prefab, System.Object> data)
         {
-            data.Clear();
             data = base.ModifyData(data);
             if(Prefab != null) data[PrefabType] = Prefab;
             return data;

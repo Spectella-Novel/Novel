@@ -1,5 +1,6 @@
 ﻿using DialogueSystem.Enums;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using XNode;
 
@@ -14,15 +15,20 @@ namespace DialogueSystem.Nodes
 
         [TextArea] public string Text;
 
-        [Input(connectionType = ConnectionType.Override)] public DataNode DataNode;
 
-        public override void UpdateData(IDictionary<NovelTypes.Prefab, Object> data)
+        public override void UpdateData(IDictionary<NovelTypes.Prefab, System.Object> data)
         {
             base.UpdateData(data);
         }
         protected override bool IsValidConnection(NodePort from, NodePort to)
         {
-            var isValid = to != GetInputPort(nameof(Previous)) || from.node is DialogueNode || from.node is EntryPoint;
+            var isValid = true;
+
+            var portPrevious = GetInputPort(nameof(Previous));
+            if(portPrevious == to)
+            {
+                isValid = !portPrevious.GetConnections().Any(connection => connection.node is DataNode node && node != from.node);
+            }
 
             return base.IsValidConnection(from, to) && isValid;
         }

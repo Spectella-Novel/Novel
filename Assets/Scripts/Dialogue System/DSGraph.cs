@@ -130,8 +130,8 @@ namespace DialogueSystem
         {
             if (LoopProtection()) return;
 
-            IDictionary<T, UnityEngine.Object> refreshData = new Dictionary<T, UnityEngine.Object>();
-
+            IDictionary<T, System.Object> refreshData = new Dictionary<T, System.Object>();
+            dataNodeBase.Data.Clear();
             var visited =  StartToEndSteps<NodeBase<T>, T>(dataNodeBase, (node, nextNode) =>
             {
                 refreshData = node.ModifyData(nextNode.Data);
