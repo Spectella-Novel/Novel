@@ -2,6 +2,7 @@
 using DialogueSystem.Data.Utility;
 using DialogueSystem.Enums;
 using DialogueSystem.Nodes;
+using DialogueSystem.Types;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -130,7 +131,7 @@ namespace DialogueSystem
         {
             if (LoopProtection()) return;
 
-            IDictionary<T, System.Object> refreshData = new Dictionary<T, System.Object>();
+            IDictionary<T, UniversalWrapper> refreshData = new Dictionary<T, UniversalWrapper>();
             dataNodeBase.Data.Clear();
             var visited =  StartToEndSteps<NodeBase<T>, T>(dataNodeBase, (node, nextNode) =>
             {
@@ -147,6 +148,7 @@ namespace DialogueSystem
             {
                 StackTrace stackTrace = new StackTrace();
                 Debug.LogWarning($"Были обнаружены признаки петли \n {stackTrace}");
+                return loop;
             }
             loop = true;
             return !loop;

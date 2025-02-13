@@ -1,9 +1,10 @@
 ﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 namespace DialogueSystem.Enums
 {
-    public  class NovelTypes
+    public class NovelTypes
     {
         public static Type GetType(Prefab prefabType)
         {
@@ -12,7 +13,7 @@ namespace DialogueSystem.Enums
                 Prefab.GameObject => typeof(GameObject),
                 Prefab.Music => typeof(AudioClip),
                 Prefab.Sprite => typeof(Texture2D),
-                Prefab.Character => typeof(GameObject),
+                Prefab.Characters => typeof(List<string>),
                 _ => null
             };
         }
@@ -22,7 +23,7 @@ namespace DialogueSystem.Enums
             GameObject = 0,
             Music = 1,
             Sprite = 2,
-            Character = 3,
+            Characters = 3,
         }
     }
 

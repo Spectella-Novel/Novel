@@ -15,11 +15,6 @@ namespace DialogueSystem.Nodes
 
         [TextArea] public string Text;
 
-
-        public override void UpdateData(IDictionary<NovelTypes.Prefab, System.Object> data)
-        {
-            base.UpdateData(data);
-        }
         protected override bool IsValidConnection(NodePort from, NodePort to)
         {
             var isValid = true;

@@ -2,7 +2,7 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace DialogueSystem.Nodes
+namespace DialogueSystem.Nodes.Data
 {
     public abstract class DataNodeBase : NodeBase<NovelTypes.Prefab>
     {

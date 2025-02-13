@@ -1,6 +1,12 @@
 ﻿using DialogueSystem.Enums;
 
 using UnityEngine;
+using System;
+using System.Linq;
+using UnityEditor.SceneManagement;
+
+
+
 #if UNITY_EDITOR
 
 using UnityEditor;
@@ -15,12 +21,26 @@ namespace DialogueSystem.Nodes.Editors
     {
         // Пример выбранной метки (значение по умолчанию)
         private NovelTypes.Prefab lastPrefabType = 0;
+        private NovelTypes.Prefab[] PrefabTypes;
+        private int index = 0;
+        private int hashOfLastPrefab = 0;
+        private string[] GUIContents;
 
         public override void OnCreate()
         {
             if (target is not DataNode node) return;
 
             lastPrefabType = node.PrefabType;
+
+            PrefabTypes = (NovelTypes.Prefab[])Enum.GetValues(typeof(NovelTypes.Prefab));
+
+            GUIContents = PrefabTypes
+                .Where(type =>
+                    NovelTypes.GetType(type) != null && // Проверка на null для результата GetType
+                    NovelTypes.GetType(type).IsSubclassOf(typeof(UnityEngine.Object)))
+                .Select(type => type.ToString()).ToArray();
+
+            index = Array.IndexOf(PrefabTypes, node.PrefabType);
         }
 
         public override void OnBodyGUI()
@@ -32,15 +52,15 @@ namespace DialogueSystem.Nodes.Editors
                 Debug.LogWarning("Null target node for node editor!");
                 return;
             }
-
             DrawFreeMarksMenu(node);
             DrawPrefabField(node);
         }
-        
+
         private void DrawFreeMarksMenu(DataNode node)
         {
+            index = EditorGUILayout.Popup(index, GUIContents);
 
-            node.PrefabType = (NovelTypes.Prefab)EditorGUILayout.EnumPopup(node.PrefabType);
+            node.PrefabType = PrefabTypes[index];
 
             if (node.PrefabType != lastPrefabType)
             {
@@ -51,7 +71,7 @@ namespace DialogueSystem.Nodes.Editors
             lastPrefabType = node.PrefabType;
         }
 
-        int hashOfLastPrefab = 0;
+       
         private void DrawPrefabField(DataNode node)
         {
 
@@ -76,7 +96,7 @@ namespace DialogueSystem.Nodes.Editors
 
             if (node.PrefabType == NovelTypes.Prefab.Sprite)
             {
-                DrawImage(node.Prefab as Texture2D, 180, 100);
+                DrawImage(node.Get<Texture2D>(node.PrefabType), 180, 100);
             }
         }
 
