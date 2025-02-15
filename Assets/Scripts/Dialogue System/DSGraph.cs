@@ -131,7 +131,7 @@ namespace DialogueSystem
         {
             if (LoopProtection()) return;
 
-            IDictionary<T, UniversalWrapper> refreshData = new Dictionary<T, UniversalWrapper>();
+            IDictionary<T, UnityUniversalWrapper> refreshData = new Dictionary<T, UnityUniversalWrapper>();
             dataNodeBase.Data.Clear();
             var visited =  StartToEndSteps<NodeBase<T>, T>(dataNodeBase, (node, nextNode) =>
             {

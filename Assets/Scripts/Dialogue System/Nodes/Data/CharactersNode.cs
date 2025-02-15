@@ -1,24 +1,21 @@
 ﻿using DialogueSystem.Enums;
+using DialogueSystem.Nodes.Data;
 using DialogueSystem.Types;
 using System.Collections.Generic;
 using UnityEngine;
 
 namespace DialogueSystem.Nodes.Data
 {
-
-    public class DataNode : DataNodeBase
+    internal class CharactersNode : DataNodeBase
     {
-        [SerializeField, HideInInspector] public NovelTypes.Prefab PrefabType;
-
-        [SerializeReference, HideInInspector] public UnityEngine.Object Prefab;
+        [SerializeField] public List<string> Characters;
 
         public override IDictionary<NovelTypes.Prefab, UnityUniversalWrapper> ModifyData(IDictionary<NovelTypes.Prefab, UnityUniversalWrapper> data)
         {
             data = base.ModifyData(data);
-            var value = new UnityUniversalWrapper(Prefab);
-            if (Prefab != null) data[PrefabType] = value;
+            var value = new UnityUniversalWrapper(Characters);
+            if (Characters.Count != 0) data[NovelTypes.Prefab.Characters] = value;
             return data;
-
         }
     }
 }

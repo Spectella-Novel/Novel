@@ -2,17 +2,16 @@
 using XNode;
 using DialogueSystem.Data.Utility;
 using System.Collections.Generic;
-using DialogueSystem.Enums;
-using UnityEngine;
 using System.Linq;
 using DialogueSystem.Types;
+using UnityEngine;
 
 namespace DialogueSystem.Nodes
 {
     public abstract class NodeBase<T> : Node
     {
         // Используем универсальную обёртку вместо System.Object
-        public SerializableDictionary<T, UniversalWrapper> Data = new SerializableDictionary<T, UniversalWrapper>();
+        public SerializableDictionary<T, UnityUniversalWrapper> Data = new SerializableDictionary<T, UnityUniversalWrapper>();
 
         public List<NodeBase<T>> InputsDataNode = new List<NodeBase<T>>();
 
@@ -22,6 +21,7 @@ namespace DialogueSystem.Nodes
         {
             base.Init();
             dSGraph = graph as DSGraph;
+            JsonUtility.ToJson(dSGraph);
         }
 
         /// <summary>
@@ -36,7 +36,7 @@ namespace DialogueSystem.Nodes
                 return;
             }
 
-            var wrapper = new UniversalWrapper();
+            var wrapper = new UnityUniversalWrapper();
             wrapper.SetValue(value);
 
             Data[mark] = wrapper;
@@ -63,16 +63,16 @@ namespace DialogueSystem.Nodes
 
         }
 
-        public virtual IDictionary<T, UniversalWrapper> ModifyData(IDictionary<T, UniversalWrapper> data)
+        public virtual IDictionary<T, UnityUniversalWrapper> ModifyData(IDictionary<T, UnityUniversalWrapper> data)
         {
             data.Clear();
             var modifyData = data.MergeDictionaries(Data);
             return modifyData;
         }
 
-        public virtual void UpdateData(IDictionary<T, UniversalWrapper> data)
+        public virtual void UpdateData(IDictionary<T, UnityUniversalWrapper> data)
         {
-            Data = new SerializableDictionary<T, UniversalWrapper>(data);
+            Data = new SerializableDictionary<T, UnityUniversalWrapper>(data);
         }
 
         public virtual void OnChange()

@@ -1,4 +1,6 @@
 ﻿using DialogueSystem.Enums;
+using DialogueSystem.Nodes.Data;
+using DialogueSystem.Types;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
@@ -14,6 +16,11 @@ namespace DialogueSystem.Nodes
         [Output(dynamicPortList = true)] public List<string> Answers;
 
         [TextArea] public string Text;
+
+        public override void UpdateData(IDictionary<NovelTypes.Prefab, UnityUniversalWrapper> data)
+        {
+            base.UpdateData(data);
+        }
 
         protected override bool IsValidConnection(NodePort from, NodePort to)
         {

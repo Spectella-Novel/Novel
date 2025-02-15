@@ -1,4 +1,5 @@
 ﻿using DialogueSystem.Enums;
+using DialogueSystem.Nodes.Data;
 using UnityEngine;
 using XNode;
 
