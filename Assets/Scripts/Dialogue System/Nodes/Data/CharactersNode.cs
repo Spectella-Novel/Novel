@@ -8,7 +8,7 @@ namespace DialogueSystem.Nodes.Data
 {
     internal class CharactersNode : DataNodeBase
     {
-        [SerializeField] public List<string> Characters;
+        [SerializeField] public List<Character> Characters;
 
         public override IDictionary<NovelTypes.Prefab, UnityUniversalWrapper> ModifyData(IDictionary<NovelTypes.Prefab, UnityUniversalWrapper> data)
         {

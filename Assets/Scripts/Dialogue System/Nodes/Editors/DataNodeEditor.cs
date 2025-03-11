@@ -6,9 +6,6 @@ using System.Linq;
 using UnityEditor.SceneManagement;
 using DialogueSystem.Nodes.Data;
 
-
-
-
 #if UNITY_EDITOR
 
 using UnityEditor;
