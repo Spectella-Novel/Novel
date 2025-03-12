@@ -13,17 +13,19 @@ namespace DialogueSystem.Nodes.Data
         public override IDictionary<NovelTypes.Prefab, UnityUniversalWrapper> ModifyData(IDictionary<NovelTypes.Prefab, UnityUniversalWrapper> data)
         {
             data = base.ModifyData(data);
+
             var value = new UnityUniversalWrapper(Characters);
+
             if (Characters.Count != 0) data[NovelTypes.Prefab.Characters] = value;
+
             return data;
         }
         public override void UpdateData(IDictionary<NovelTypes.Prefab, UnityUniversalWrapper> data)
         {
             base.UpdateData(data);
-            if(base.Data.TryGetValue(NovelTypes.Prefab.Characters, out var wrapperCharecters))
-            {
+
+            if(Characters.Count != 0 && Data.TryGetValue(NovelTypes.Prefab.Characters, out var wrapperCharecters))
                 Characters = wrapperCharecters.GetValue<List<Character>>();
-            }
         }
     }
 }
