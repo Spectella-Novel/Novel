@@ -8,7 +8,7 @@ namespace DialogueSystem.Nodes.Data
 {
     internal class CharactersNode : DataNodeBase
     {
-        [SerializeField] public List<Character> Characters;
+        [SerializeField] public List<Character> Characters = new();
 
         public override IDictionary<NovelTypes.Prefab, UnityUniversalWrapper> ModifyData(IDictionary<NovelTypes.Prefab, UnityUniversalWrapper> data)
         {
@@ -16,6 +16,14 @@ namespace DialogueSystem.Nodes.Data
             var value = new UnityUniversalWrapper(Characters);
             if (Characters.Count != 0) data[NovelTypes.Prefab.Characters] = value;
             return data;
+        }
+        public override void UpdateData(IDictionary<NovelTypes.Prefab, UnityUniversalWrapper> data)
+        {
+            base.UpdateData(data);
+            if(base.Data.TryGetValue(NovelTypes.Prefab.Characters, out var wrapperCharecters))
+            {
+                Characters = wrapperCharecters.GetValue<List<Character>>();
+            }
         }
     }
 }
