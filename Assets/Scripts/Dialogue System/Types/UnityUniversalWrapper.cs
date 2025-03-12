@@ -11,7 +11,7 @@ namespace DialogueSystem.Types
     {
         None,
         UnityObject, // Для объектов, наследуемых от UnityEngine.Object
-        List       // Для произвольных ссылочных объектов
+        Any       // Для произвольных ссылочных объектов
     }
 
     [Serializable]
@@ -47,23 +47,25 @@ namespace DialogueSystem.Types
 
         public void SetValue(object value)
         {
-            if (value == null)
+            switch (value)
             {
-                wrapperType = UnityWrapperType.None;
-                unityObjectValue = null;
-                collectionValue = null;
-            }
-            else if (value is UnityEngine.Object)
-            {
-                wrapperType = UnityWrapperType.UnityObject;
-                unityObjectValue = value as UnityEngine.Object;
-                collectionValue = null;
-            }
-            else
-            {
-                wrapperType = UnityWrapperType.List;
-                collectionValue = value;
-                unityObjectValue = null;
+                case null:
+                    wrapperType = UnityWrapperType.None;
+                    unityObjectValue = null;
+                    collectionValue = null;
+                    break;
+
+                case UnityEngine.Object obj:
+                    wrapperType = UnityWrapperType.UnityObject;
+                    unityObjectValue = obj;
+                    collectionValue = null;
+                    break;
+
+                default:
+                    wrapperType = UnityWrapperType.Any;
+                    collectionValue = value;
+                    unityObjectValue = null;
+                    break;
             }
         }
 
@@ -73,7 +75,7 @@ namespace DialogueSystem.Types
             {
                 return (T)(object)unityObjectValue;
             }
-            else if (wrapperType == UnityWrapperType.List)
+            else if (wrapperType == UnityWrapperType.Any)
             {
                 if (collectionValue is T value)
                 {
@@ -89,7 +91,7 @@ namespace DialogueSystem.Types
             {
                 case UnityWrapperType.UnityObject:
                     return unityObjectValue ? unityObjectValue.name : "null";
-                case UnityWrapperType.List:
+                case UnityWrapperType.Any:
                     return collectionValue != null ? collectionValue.ToString() : "null";
                 default:
                     return "null";
