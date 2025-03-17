@@ -9,18 +9,13 @@ using XNode;
 namespace DialogueSystem.Nodes
 {
     [NodeWidth(300)]
-    public class DialogueNode : NodeBase<NovelTypes.Prefab>
+    public abstract class BaseDialogueNode : NodeBase<NovelTypes.Prefab>
     {
         [Input] public string Previous;
 
-        [Output(dynamicPortList = true)] public List<string> Answers;
 
         [TextArea] public string Text;
 
-        public override void UpdateData(IDictionary<NovelTypes.Prefab, UnityUniversalWrapper> data)
-        {
-            base.UpdateData(data);
-        }
 
         protected override bool IsValidConnection(NodePort from, NodePort to)
         {
@@ -34,14 +29,6 @@ namespace DialogueSystem.Nodes
 
             return base.IsValidConnection(from, to) && isValid;
         }
-        public override object GetValue(NodePort port)
-        {
-            if (port.fieldName.Contains(nameof(Answers)))
-            {
-                return this;
-            }
 
-            return base.GetValue(port);
-        }
     }
 }
