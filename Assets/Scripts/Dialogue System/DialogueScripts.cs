@@ -17,18 +17,18 @@ public class DialogueScripts : MonoBehaviour
 
     public int numberOfButtons = 5; // Количество кнопок для генерации
 
-    public DialogueNode CurrentNode; 
+    public AnsweredDialogueNode CurrentNode; 
 
     private void Start()
     {
         var entryPoint = DSGraph.EntryPoint;
         var port = entryPoint.GetOutputPort(nameof(entryPoint.Start));
-        CurrentNode = port.Connection.node as DialogueNode;
+        CurrentNode = port.Connection.node as AnsweredDialogueNode;
         Init();
 
     }
 
-    private void GenerateButtons(DialogueNode dialogueNode)
+    private void GenerateButtons(AnsweredDialogueNode dialogueNode)
     {
         // Удаляем все дочерние элементы из контейнера
         foreach (Transform child in buttonContainer)
@@ -56,7 +56,7 @@ public class DialogueScripts : MonoBehaviour
     {
         Debug.Log("index");
 
-        CurrentNode = CurrentNode.GetOutputPort(nameof(CurrentNode.Answers) + " " + index)?.Connection?.node as DialogueNode;
+        CurrentNode = CurrentNode.GetOutputPort(nameof(CurrentNode.Answers) + " " + index)?.Connection?.node as AnsweredDialogueNode;
 
         if (CurrentNode == null) {
             UnityEngine.Application.Quit();
