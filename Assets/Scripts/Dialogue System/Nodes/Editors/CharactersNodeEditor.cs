@@ -3,6 +3,7 @@ using DialogueSystem.Enums;
 using DialogueSystem.Nodes.Data;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.TextCore.Text;
 using XNodeEditor;
 #endif
 
@@ -16,6 +17,7 @@ namespace DialogueSystem.Nodes.Editors
         {
             // Получаем ссылку на текущий узел
             var node = target as CharactersNode;
+            var graph = node.graph as DSGraph;
 
             if (node == null) return;
 
@@ -26,14 +28,21 @@ namespace DialogueSystem.Nodes.Editors
             EditorGUILayout.LabelField("Elements", EditorStyles.boldLabel);
             for (int i = 0; i < node.Characters.Count; i++)
             {
+                
                 var element = node.Characters[i];
+                
+                if(element == null) continue;
+
                 EditorGUILayout.BeginVertical();
-                element.Name = EditorGUILayout.TextField("Name", element.Name);
-                element.Type =  (CharactersType)EditorGUILayout.EnumPopup("Type", element.Type);
+
+                if(element.Name != null) EditorGUILayout.LabelField(element.Name);
+                EditorGUILayout.LabelField(element.Type.ToString());
+                node.Characters[i] = EditorGUILayout.ObjectField(element, typeof(Character), false) as Character;
                 if (GUILayout.Button("Remove"))
                 {
                     node.Characters.RemoveAt(i);
                 }
+
                 EditorGUILayout.EndVertical();
             }
 
