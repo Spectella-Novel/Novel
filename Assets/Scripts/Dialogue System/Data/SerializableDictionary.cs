@@ -67,6 +67,9 @@ namespace DialogueSystem.Data
 
             for (int i = 0; i < numEntries; ++i)
             {
+                if (result.Keys.Contains(list[i].Key)) 
+                    throw new Exception($"Duplicate key found: '{list[i].Key}'. The list cannot contain duplicate keys.");
+
                 result[list[i].Key] = (uint)i;
             }
 
