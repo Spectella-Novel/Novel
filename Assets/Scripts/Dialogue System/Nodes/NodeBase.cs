@@ -21,7 +21,6 @@ namespace DialogueSystem.Nodes
         {
             base.Init();
             dSGraph = graph as DSGraph;
-            JsonUtility.ToJson(dSGraph);
         }
 
         /// <summary>
