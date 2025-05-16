@@ -1,5 +1,6 @@
 ﻿
-using DialogueSystem.Enums;
+using DialogueSystem.Models;
+using DialogueSystem.Models.Enums;
 using DialogueSystem.Types;
 using System.Collections.Generic;
 

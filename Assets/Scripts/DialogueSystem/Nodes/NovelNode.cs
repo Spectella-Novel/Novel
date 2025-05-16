@@ -1,5 +1,4 @@
-﻿using DialogueSystem.Enums;
-
+﻿using DialogueSystem.Models.Enums;
 
 namespace DialogueSystem.Nodes
 {

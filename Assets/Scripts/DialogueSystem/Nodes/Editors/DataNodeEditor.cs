@@ -1,10 +1,10 @@
-﻿using DialogueSystem.Enums;
-
-using UnityEngine;
+﻿using UnityEngine;
 using System;
 using System.Linq;
 using UnityEditor.SceneManagement;
 using DialogueSystem.Nodes.Data;
+using DialogueSystem.Models.Enums;
+
 
 #if UNITY_EDITOR
 

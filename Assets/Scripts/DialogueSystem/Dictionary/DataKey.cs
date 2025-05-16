@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace DialogueSystem.Data
+namespace DialogueSystem.Dictionary
 {
     /// <summary>
     /// Структура-ключ для словаря, состоящая из двух компонентов: типа и метки.

@@ -1,5 +1,4 @@
 ﻿#if UNITY_EDITOR
-using DialogueSystem.Enums;
 using UnityEditor;
 using UnityEngine;
 using XNodeEditor;

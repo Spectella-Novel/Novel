@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DialogueSystem.Data.Utility
+namespace DialogueSystem.Dictionary.Utility
 {
     static class DictionaryUtility
     {

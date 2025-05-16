@@ -1,6 +1,9 @@
-﻿using DialogueSystem.Enums;
+﻿using DialogueSystem.Models.Dialogue;
+using DialogueSystem.Models.Enums;
 using DialogueSystem.Nodes.Data;
 using DialogueSystem.Types;
+using DialogueSystem.Types.Reactive;
+using DialogueSystem.Types.Reactive.Editors;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
@@ -13,7 +16,17 @@ namespace DialogueSystem.Nodes.Dialogue
     public abstract class DialogueNodeBase : NovelNode
     {
         [Input] public string Previous;
-        [TextArea] public string Text;
+        [ReactiveProperty] public ReactiveProperty<string> Text = new();
+
+        public virtual void InitReactiveProperty()
+        {
+            Text.OnChange += value =>
+            {
+                Debug.Log(value);
+                Model.Text = value;
+            };
+        }
+        public abstract DialogueBase Model { get; protected set; }
 
         protected override bool IsValidConnection(NodePort from, NodePort to)
         {
@@ -57,5 +70,10 @@ namespace DialogueSystem.Nodes.Dialogue
             return dataNode;
         }
 
+        public override void UpdateData(IDictionary<NovelTypes.Prefab, UnityUniversalWrapper> data)
+        {
+            Model.Data = new(data);
+            base.UpdateData(data);
+        }
     }
 }

@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using DialogueSystem.Models.Dialogue;
+using DialogueSystem.Types.Reactive;
+using System.Collections.Generic;
 using XNode;
 
 namespace DialogueSystem.Nodes.Dialogue
@@ -6,17 +8,26 @@ namespace DialogueSystem.Nodes.Dialogue
     [NodeWidth(300)]
     public class AnsweredDialogueNode : DialogueNodeBase
     {
-        [Output(dynamicPortList = true)] public List<string> Answers;
+        [Output(dynamicPortList = true)] public ReactiveProperty<List<string>> Answers;
 
+        public override DialogueBase Model { get => _model; protected set => _model = value; }
+        private DialogueBase _model;
+
+        public override void InitReactiveProperty()
+        {
+            base.InitReactiveProperty();
+
+
+        }
         public override List<NodePort> GetNext()
         {
             var answers = new List<NodePort>();
 
             KeyValuePair<string, DialogueNodeBase> answer;
 
-            for (int i = 0; i < this.Answers.Count; i++)
+            for (int i = 0; i < this.Answers.Value.Count; i++)
             {
-                string text = this.Answers[i];
+                string text = this.Answers.Value[i];
 
                 var port = this.GetOutputPort($"{nameof(this.Answers)} {i}");
 

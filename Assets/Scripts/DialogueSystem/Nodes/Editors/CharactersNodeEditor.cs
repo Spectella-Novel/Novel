@@ -1,10 +1,9 @@
 ﻿#if UNITY_EDITOR
-using DialogueSystem.Enums;
+using DialogueSystem.Models;
+using DialogueSystem.Models.Enums;
 using DialogueSystem.Nodes.Data;
-using System.ComponentModel;
 using UnityEditor;
 using UnityEngine;
-using UnityEngine.TextCore.Text;
 using XNodeEditor;
 #endif
 

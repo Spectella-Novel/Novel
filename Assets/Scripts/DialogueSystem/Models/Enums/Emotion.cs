@@ -1,5 +1,4 @@
-﻿
-namespace DialogueSystem.Enums
+﻿namespace DialogueSystem.Models.Enums
 {
     public enum Emotion
     {

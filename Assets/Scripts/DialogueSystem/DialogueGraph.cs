@@ -1,5 +1,4 @@
-﻿using DialogueSystem.Enums;
-using DialogueSystem.Nodes;
+﻿using DialogueSystem.Nodes;
 using DialogueSystem.Nodes.Dialogue;
 using DialogueSystem.Types;
 using System;
@@ -11,6 +10,8 @@ using XNode;
 using Debug = UnityEngine.Debug;
 
 using static DialogueSystem.Walker;
+using DialogueSystem.Models;
+using DialogueSystem.Models.Enums;
 
 namespace DialogueSystem
 {
@@ -59,8 +60,11 @@ namespace DialogueSystem
         public override Node AddNode(Type type)
         {
             if(!type.IsSubclassOf(typeof(NovelNode))) return null;
-
             var node = base.AddNode(type);
+
+            if (node is DialogueNodeBase dialogue){
+                dialogue.InitReactiveProperty();
+            }
 
             if (type != typeof(EntryPoint)) return node;
 

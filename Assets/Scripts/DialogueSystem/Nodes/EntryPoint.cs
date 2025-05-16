@@ -1,4 +1,4 @@
-﻿using DialogueSystem.Enums;
+﻿using DialogueSystem.Models.Enums;
 using DialogueSystem.Types;
 using System.Collections.Generic;
 using UnityEngine;

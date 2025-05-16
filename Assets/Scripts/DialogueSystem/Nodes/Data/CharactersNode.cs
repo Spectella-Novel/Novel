@@ -1,5 +1,5 @@
-﻿using DialogueSystem.Enums;
-using DialogueSystem.Nodes.Data;
+﻿using DialogueSystem.Models;
+using DialogueSystem.Models.Enums;
 using DialogueSystem.Types;
 using System.Collections.Generic;
 using UnityEngine;
