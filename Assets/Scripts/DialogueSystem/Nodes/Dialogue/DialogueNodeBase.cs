@@ -1,6 +1,8 @@
 ﻿using DialogueSystem.Models.Dialogue;
 using DialogueSystem.Models.Enums;
 using DialogueSystem.Nodes.Data;
+using DialogueSystem.Reactive;
+using DialogueSystem.Reactive.Editors;
 using DialogueSystem.Types;
 using DialogueSystem.Types.Reactive;
 using DialogueSystem.Types.Reactive.Editors;
@@ -8,6 +10,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using XNode;
+using static DialogueSystem.Dialogue.DialogueBase;
 using static DialogueSystem.Walker;
 
 namespace DialogueSystem.Nodes.Dialogue
