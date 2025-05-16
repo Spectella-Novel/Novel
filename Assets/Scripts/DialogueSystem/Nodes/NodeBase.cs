@@ -1,10 +1,9 @@
-﻿using DialogueSystem.Data;
+﻿using DialogueSystem.Dictionary;
 using XNode;
-using DialogueSystem.Data.Utility;
+using DialogueSystem.Dictionary.Utility;
 using System.Collections.Generic;
 using System.Linq;
 using DialogueSystem.Types;
-using UnityEngine;
 
 namespace DialogueSystem.Nodes
 {
@@ -69,24 +68,6 @@ namespace DialogueSystem.Nodes
             Data = new SerializableDictionary<T, UnityUniversalWrapper>(data);
         }
 
-
-        public override void OnRemoveConnection(NodePort port)
-        {
-            RefreshInputConnection();
-        }
-
-        private void RefreshInputConnection()
-        {
-            InputsDataNode.Clear();
-
-            var inputNodes = Inputs
-                .SelectMany(input => input.GetConnections())
-                .Select(conn => conn.node as NodeBase<T>)
-                .Where(node => node != null);
-
-            InputsDataNode.AddRange(inputNodes);
-        }
-
         public override void OnCreateConnection(NodePort from, NodePort to)
         {
             if (!IsValidConnection(from, to))
@@ -103,6 +84,23 @@ namespace DialogueSystem.Nodes
                 RefreshInputConnection();
                 return;
             }
+        }
+
+        public override void OnRemoveConnection(NodePort port)
+        {
+            RefreshInputConnection();
+        }
+
+        private void RefreshInputConnection()
+        {
+            InputsDataNode.Clear();
+
+            var inputNodes = Inputs
+                .SelectMany(input => input.GetConnections())
+                .Select(conn => conn.node as NodeBase<T>)
+                .Where(node => node != null);
+
+            InputsDataNode.AddRange(inputNodes);
         }
 
         protected virtual bool IsValidConnection(NodePort from, NodePort to)

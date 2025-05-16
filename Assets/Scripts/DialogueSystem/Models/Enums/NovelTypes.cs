@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace DialogueSystem.Enums
+namespace DialogueSystem.Models.Enums
 {
     public class NovelTypes
     {

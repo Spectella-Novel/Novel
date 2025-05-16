@@ -5,7 +5,7 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.Serialization;
 
-namespace DialogueSystem.Data
+namespace DialogueSystem.Dictionary
 {
 
     public class SerializableDictionary

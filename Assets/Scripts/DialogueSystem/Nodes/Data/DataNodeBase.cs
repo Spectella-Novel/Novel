@@ -1,6 +1,4 @@
-﻿using DialogueSystem.Enums;
-using UnityEditor;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace DialogueSystem.Nodes.Data
 {

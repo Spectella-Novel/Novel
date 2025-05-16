@@ -59,8 +59,11 @@ namespace DialogueSystem
         public override Node AddNode(Type type)
         {
             if(!type.IsSubclassOf(typeof(NovelNode))) return null;
-
             var node = base.AddNode(type);
+
+            if (node is DialogueNodeBase dialogue){
+                dialogue.InitReactiveProperty();
+            }
 
             if (type != typeof(EntryPoint)) return node;
 

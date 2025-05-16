@@ -1,9 +1,9 @@
-﻿using DialogueSystem.Data;
+﻿using DialogueSystem.Dictionary;
 using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace DialogueSystem.Characters
+namespace DialogueSystem.Models.Characters
 {
     [Serializable]
     public class Composition

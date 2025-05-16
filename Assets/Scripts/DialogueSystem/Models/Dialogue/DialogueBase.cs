@@ -1,16 +1,10 @@
-﻿using DialogueSystem.Data;
-using DialogueSystem.Enums;
-using DialogueSystem.Nodes;
-using DialogueSystem.Nodes.Data;
-using DialogueSystem.Nodes.Dialogue;
+﻿using DialogueSystem.Dictionary;
+using DialogueSystem.Models.Enums;
 using DialogueSystem.Types;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading;
-using System.Xml;
 
-namespace DialogueSystem.Dialogue
+
+namespace DialogueSystem.Models.Dialogue
 {
     public abstract class DialogueBase
     {
@@ -18,10 +12,12 @@ namespace DialogueSystem.Dialogue
         public string Text;
         public List<Answer> Answers;
 
-        public DialogueBase(DialogueNodeBase node)
+        public DialogueBase()
         {
-            Data = node.Data;
-            Text = node.Text;
+            Text = "Default";
+            Data = new ();
+            Answers = new();
+
         }
         public void Init(List<Answer> answers)
         {
@@ -33,6 +29,5 @@ namespace DialogueSystem.Dialogue
             public string Text;
             public DialogueBase Next;
         }
-
     }
 }

@@ -9,6 +9,7 @@ namespace DialogueSystem.Nodes.Data.Compositions
     public class CentralCompositionNode : CompositionBaseNode
     {
         public Character Center;
+        public Emotion Emotions; 
 
         public override IDictionary<NovelTypes.Prefab, UnityUniversalWrapper> ModifyData(IDictionary<NovelTypes.Prefab, UnityUniversalWrapper> data)
         {

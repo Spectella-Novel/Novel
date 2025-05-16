@@ -1,12 +1,12 @@
-﻿using DialogueSystem.Data;
-using DialogueSystem.Enums;
+﻿using DialogueSystem.Dictionary;
+using DialogueSystem.Models.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Xml.Serialization;
 using UnityEngine;
 
-namespace DialogueSystem
+namespace DialogueSystem.Models
 {
     [CreateAssetMenu(fileName = "New Character", menuName = "Dialogue System/Character")]
     [Serializable]

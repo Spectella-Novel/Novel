@@ -2,7 +2,7 @@ using DialogueSystem;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using DialogueSystem.Data;
+using DialogueSystem.Dictionary;
 
 public class RelativeAnchor : MonoBehaviour
 {

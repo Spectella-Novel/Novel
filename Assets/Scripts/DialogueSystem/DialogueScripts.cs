@@ -40,7 +40,7 @@ public class DialogueScripts : MonoBehaviour
 
     private void GenerateAnsweredDialogue(AnsweredDialogueNode dialogueNode)
     {
-        text.text = dialogueNode.Text;
+        text.text = dialogueNode.Text.Value;
 
         for (int i = 0; i < dialogueNode.Answers.Count; i++)
         {
@@ -106,7 +106,7 @@ public class DialogueScripts : MonoBehaviour
 
     private void GenerateUnansweredDialogue(UnansweredDialogueNode answeredDialogue)
     {
-        text.text = answeredDialogue.Text;
+        text.text = answeredDialogue.Text.Value;
         mouseDown += OnMouseDown;
         void OnMouseDown()
         {
