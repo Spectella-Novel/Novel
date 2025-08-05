@@ -1,5 +1,5 @@
 # Файлы и папки, которые не следует отслеживать в Git
-
+Assets/Plugins/
 # Файлы сборки и временные файлы
 *.csproj
 *.unityproj
@@ -36,3 +36,5 @@ ehthumbs.db
 *.tmp
 *.log
 /Builds
+# Visual studio
+.vs/

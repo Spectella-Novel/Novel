@@ -123,6 +123,50 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &402166772
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 402166773}
+  - component: {fileID: 402166774}
+  m_Layer: 0
+  m_Name: Ren'py
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &402166773
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 402166772}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.8861384, y: 1.2964641, z: 511.09143}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &402166774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 402166772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1694fdb88d38b842b160d6651fb05ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &503232525
 GameObject:
   m_ObjectHideFlags: 0
@@ -919,13 +963,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b28bc7f6012bcc448ab7dff44d204128, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DSGraph: {fileID: 11400000, guid: 68b6746197eafb14bb0d5e6b78725189, type: 2}
-  text: {fileID: 744081384}
-  buttonContainer: {fileID: 1178555114}
-  prefabButton: {fileID: 5696088373180102102, guid: 2baf28c34843a18439b8c469457b1874, type: 3}
-  numberOfButtons: 5
-  CurrentNode: {fileID: 0}
-  anchor: {fileID: 2121978045}
 --- !u!1 &2121978043
 GameObject:
   m_ObjectHideFlags: 0
@@ -976,14 +1013,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc7c685db8f42ce498c0d6c81d1ab842, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Anchors:
-  - Key: 1
-    Value: {fileID: 1266880937}
-  - Key: 0
-    Value: {fileID: 542139287}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1754594333}
   - {fileID: 798028158}
+  - {fileID: 402166773}
