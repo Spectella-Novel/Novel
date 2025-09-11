@@ -1,16 +1,22 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using RenDisco;
 using System;
-using System.IO;
 using Assembly_CSharp;
-using NovelEngine;
+using System.Threading;
+using RenDisco.Implementation;
+using System.Threading.Tasks;
+using Implementation;
+
 public class RenpyConsole : MonoBehaviour
 {
-    UnityRuntimeEngine engine;
+    private Game game;
+    private AsyncStepper _stepper;
+    private Action Delegate;
+    [SerializeField] private DialogueComponent dialogue;
+
     // Start is called before the first frame update
-    void Start()
+    async void Start()
     {
         System.Console.SetOut(new UnityTextWriter());
         Console.WriteLine("Test");
@@ -19,6 +25,7 @@ public class RenpyConsole : MonoBehaviour
             label start:
                 e ""Hello, world!""
                 jump start_2
+
             label start_2:
                 e ""start_2, world!""
                 # Варианты ответа
@@ -34,41 +41,38 @@ public class RenpyConsole : MonoBehaviour
         
             label start_3:
                 ""narrative, world!""
+                jump start_4
+            label start_4:
+                e ""start_4, world!""
+                jump start_5
+            label start_5:
+                e ""start_5, world!""
                 jump finish
             label finish:
                 e ""Goodbye, world!""
                 return
             ";
         IRenpyParser parser = new AntlrRenpyParser();
-        List<Command> commands = parser.Parse(script);
-        IRuntimeEngine runtime = new UnityRuntimeEngine();
-        Game game = new Game(runtime, commands);
-        var counter = 0;
-        while(game.gameIsRunning && counter < 10)
-        {
-            counter++;
-            // Check if we need to read a choice from the user
-            if (game.WaitingForInput)
-            {
-                Debug.Log("> 1 // нет ввода");
-                var userChoice = 1;
+        List<Instruction> commands = parser.Parse(script);
+        SignalBroker.Initialize();
+        var storage = new UnityStorage();
+        var factory = new UnityCommandFactory(dialogue, storage);
+        _stepper = new AsyncStepper(commands, factory);
+        Console.WriteLine("start");
 
-                // Create a StepContext with the user's choice loaded
-                InputContext inputContext = new InputContext(userChoice - 1);
-                game.Step(inputContext: inputContext);
-            }
-            else
-            {
-                Debug.Log("-");
-                game.Step();
-            }
-        }
-        Debug.Log(counter);
+        _stepper.Start();
+        Delegate = OnInputHandler;
+        SignalBroker.On("Input", Delegate);
+    }
+    void OnInputHandler()
+    {
+        WaitableMessageBroker.Publish("Input", 1);
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
+
 }

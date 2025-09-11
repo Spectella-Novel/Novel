@@ -1,14 +1,12 @@
 using System;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
-using UnityEngine;
-using RenDisco;
-namespace NovelEngine {
-    public class UnityRuntimeEngine : IRuntimeEngine
+
+namespace RenDisco {
+    public class ConsoleRuntimeEngine : IRuntimeEngine
     {
         private Dictionary<string, object> _variables = new Dictionary<string, object>();
         private Dictionary<string, Dictionary<string, string?>> _characters = new Dictionary<string, Dictionary<string, string?>>();
-
 
         /// <summary>
         /// Displays dialogue for a specific character or as narration if no character is provided.
@@ -18,6 +16,7 @@ namespace NovelEngine {
         public void ShowDialogue(string? character, string dialogue)
         {
             string id = character ?? "";
+            Console.WriteLine(_characters[id] == null ? dialogue : $"{_characters[id]["name"]}: {dialogue}");
         }
 
         /// <summary>
@@ -26,7 +25,7 @@ namespace NovelEngine {
         /// <param name="narration">The narration text.</param>
         public void ShowNarration(string narration)
         {
-            Debug.Log($"Narration: {narration}");
+            Console.WriteLine($"Narration: {narration}");
         }
 
         /// <summary>
@@ -36,27 +35,27 @@ namespace NovelEngine {
         /// <param name="transition">The transition effect to use.</param>
         public void ShowImage(string image, string? transition = null)
         {
-            Debug.Log(transition == null ? $"Show Image: {image}" : $"Show Image: {image} with {transition} transition");
+            Console.WriteLine(transition == null ? $"Show Image: {image}" : $"Show Image: {image} with {transition} transition");
         }
 
         public void HideImage(string image, string? transition = null)
         {
-            Debug.Log(transition == null ? $"Hide Image: {image}" : $"Hide Image: {image} with {transition} transition");
+            Console.WriteLine(transition == null ? $"Hide Image: {image}" : $"Hide Image: {image} with {transition} transition");
         }
 
         public void PlayMusic(string file, double? fadein)
         {
-            Debug.Log(fadein == default ? $"Play Music: {file}" : $"Play Music: {file} with fadein of {fadein} second(s)");
+            Console.WriteLine(fadein == default ? $"Play Music: {file}" : $"Play Music: {file} with fadein of {fadein} second(s)");
         }
 
         public void StopMusic(double? fadeout)
         {
-            Debug.Log(fadeout == default ? $"Stop Music" : $"Stop Music: with fadeout of {fadeout} second(s)");
+            Console.WriteLine(fadeout == default ? $"Stop Music" : $"Stop Music: with fadeout of {fadeout} second(s)");
         }
 
         public void Pause(double? duration)
         {
-            Debug.Log(duration == default ? $"Pause" : $"Pause: {duration} second(s)");
+            Console.WriteLine(duration == default ? $"Pause" : $"Pause: {duration} second(s)");
         }
 
         /// <summary>
@@ -68,7 +67,7 @@ namespace NovelEngine {
         {
             for (int i = 0; i < choices.Count; i++)
             {
-                Debug.Log($"{i + 1}: {choices[i].OptionText}");
+                Console.WriteLine($"{i + 1}: {choices[i].OptionText}");
             }
         }
 
