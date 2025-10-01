@@ -3,72 +3,191 @@
   "WorkspaceRootPath": "D:\\Repos\\Visual Novel\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|D:\\Repos\\Visual Novel\\assets\\plugins\\rendisco\\rendisco\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|solutionrelative:assets\\plugins\\rendisco\\rendisco\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|D:\\Repos\\Visual Novel\\assets\\scripts\\novel\\loader\\fileloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\novel\\loader\\fileloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|d:\\repos\\visual novel\\assets\\plugins\\rendisco\\rendisco\\asyncstepper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|solutionrelative:assets\\plugins\\rendisco\\rendisco\\asyncstepper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|D:\\Repos\\Visual Novel\\assets\\scripts\\renpyconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|d:\\repos\\visual novel\\assets\\scripts\\renpyconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\renpyconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|D:\\Repos\\Visual Novel\\assets\\scripts\\unitytextwriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\unitytextwriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|d:\\repos\\visual novel\\assets\\scripts\\novel\\novelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\novel\\novelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|d:\\repos\\visual novel\\assets\\scripts\\novel\\managers\\dialoguemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\novel\\managers\\dialoguemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|D:\\Repos\\Visual Novel\\assets\\scripts\\novel\\implementation\\commands\\unitydialoguecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\novel\\implementation\\commands\\unitydialoguecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|D:\\Repos\\Visual Novel\\assets\\scripts\\novel\\implementation\\commands\\unitydefinecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\novel\\implementation\\commands\\unitydefinecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|D:\\Repos\\Visual Novel\\assets\\plugins\\rendisco\\rendisco\\new rendisco\\command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|solutionrelative:assets\\plugins\\rendisco\\rendisco\\new rendisco\\command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|D:\\Repos\\Visual Novel\\assets\\scripts\\novel\\implementation\\unitycommandfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\novel\\implementation\\unitycommandfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|D:\\Repos\\Visual Novel\\assets\\scripts\\novel\\implementation\\unitystorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\novel\\implementation\\unitystorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|D:\\Repos\\Visual Novel\\assets\\scripts\\novel\\implementation\\commands\\unitystopmusiccommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\novel\\implementation\\commands\\unitystopmusiccommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|D:\\Repos\\Visual Novel\\assets\\scripts\\novel\\implementation\\commands\\unityshowscenecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\novel\\implementation\\commands\\unityshowscenecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|D:\\Repos\\Visual Novel\\assets\\scripts\\novel\\implementation\\commands\\unityshowimagecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\novel\\implementation\\commands\\unityshowimagecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|D:\\Repos\\Visual Novel\\assets\\scripts\\novel\\implementation\\commands\\unityplaymusiccommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\novel\\implementation\\commands\\unityplaymusiccommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|D:\\Repos\\Visual Novel\\assets\\plugins\\rendisco\\rendisco\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|solutionrelative:assets\\plugins\\rendisco\\rendisco\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|D:\\Repos\\Visual Novel\\assets\\scripts\\novel\\implementation\\commands\\unitydialoguecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\novel\\implementation\\commands\\unitydialoguecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|D:\\Repos\\Visual Novel\\assets\\plugins\\rendisco\\rendisco\\asyncstepper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|solutionrelative:assets\\plugins\\rendisco\\rendisco\\asyncstepper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|D:\\Repos\\Visual Novel\\assets\\plugins\\rendisco\\rendisco\\new rendisco\\command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|solutionrelative:assets\\plugins\\rendisco\\rendisco\\new rendisco\\command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|D:\\Repos\\Visual Novel\\assets\\plugins\\rendisco\\rendisco\\instructioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|solutionrelative:assets\\plugins\\rendisco\\rendisco\\instructioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|D:\\Repos\\Visual Novel\\assets\\plugins\\rendisco\\rendisco\\instruction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|solutionrelative:assets\\plugins\\rendisco\\rendisco\\instruction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|D:\\Repos\\Visual Novel\\assets\\scripts\\novel\\implementation\\commands\\unityhidecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\novel\\implementation\\commands\\unityhidecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|D:\\Repos\\Visual Novel\\assets\\scripts\\novel\\implementation\\commands\\unitydefinecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\novel\\implementation\\commands\\unitydefinecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|D:\\Repos\\Visual Novel\\assets\\plugins\\rendisco\\rendisco\\antlr4\\rendisco\\renpyparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|solutionrelative:assets\\plugins\\rendisco\\rendisco\\antlr4\\rendisco\\renpyparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|D:\\Repos\\Visual Novel\\assets\\plugins\\rendisco\\rendisco\\antlrrenpyparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|solutionrelative:assets\\plugins\\rendisco\\rendisco\\antlrrenpyparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|D:\\Repos\\Visual Novel\\assets\\plugins\\rendisco\\rendisco\\new rendisco\\waitablemessagebroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|solutionrelative:assets\\plugins\\rendisco\\rendisco\\new rendisco\\waitablemessagebroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|D:\\Repos\\Visual Novel\\assets\\plugins\\rendisco\\rendisco\\antlr4\\rendisco\\renpybasevisitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|solutionrelative:assets\\plugins\\rendisco\\rendisco\\antlr4\\rendisco\\renpybasevisitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|D:\\Repos\\Visual Novel\\assets\\scripts\\novel\\implementation\\commands\\unityplaymusiccommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\novel\\implementation\\commands\\unityplaymusiccommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|D:\\Repos\\Visual Novel\\assets\\scripts\\novel\\implementation\\commands\\unityshowscenecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\novel\\implementation\\commands\\unityshowscenecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|D:\\Repos\\Visual Novel\\assets\\scripts\\novel\\implementation\\commands\\unitystopmusiccommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\novel\\implementation\\commands\\unitystopmusiccommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|D:\\Repos\\Visual Novel\\assets\\plugins\\rendisco\\rendisco\\implementation\\commands\\consolestopmusiccommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|solutionrelative:assets\\plugins\\rendisco\\rendisco\\implementation\\commands\\consolestopmusiccommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|D:\\Repos\\Visual Novel\\assets\\plugins\\rendisco\\rendisco\\implementation\\commands\\consoledialoguecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|solutionrelative:assets\\plugins\\rendisco\\rendisco\\implementation\\commands\\consoledialoguecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|D:\\Repos\\Visual Novel\\assets\\plugins\\rendisco\\rendisco\\implementation\\commands\\consolenarrationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|solutionrelative:assets\\plugins\\rendisco\\rendisco\\implementation\\commands\\consolenarrationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|D:\\Repos\\Visual Novel\\assets\\plugins\\rendisco\\rendisco\\implementation\\commands\\consoleplaymusiccommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|solutionrelative:assets\\plugins\\rendisco\\rendisco\\implementation\\commands\\consoleplaymusiccommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|D:\\Repos\\Visual Novel\\assets\\plugins\\rendisco\\rendisco\\new rendisco\\signalbroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|solutionrelative:assets\\plugins\\rendisco\\rendisco\\new rendisco\\signalbroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|D:\\Repos\\Visual Novel\\assets\\plugins\\rendisco\\rendisco\\implementation\\commands\\consolehidecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|solutionrelative:assets\\plugins\\rendisco\\rendisco\\implementation\\commands\\consolehidecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|D:\\Repos\\Visual Novel\\assets\\scripts\\novel\\implementation\\commands\\unitynarrationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\novel\\implementation\\commands\\unitynarrationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|D:\\Repos\\Visual Novel\\assets\\plugins\\rendisco\\rendisco\\consoleruntimeengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|solutionrelative:assets\\plugins\\rendisco\\rendisco\\consoleruntimeengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|D:\\Repos\\Visual Novel\\assets\\plugins\\rendisco\\rendisco\\new rendisco\\commandfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|solutionrelative:assets\\plugins\\rendisco\\rendisco\\new rendisco\\commandfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\Desktop\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A14C91C-F6F4-414B-DFF8-F5FC035AA837}|Unity.TextMeshPro.csproj|D:\\Repos\\Visual Novel\\library\\packagecache\\com.unity.textmeshpro@3.0.6\\scripts\\runtime\\textmeshprougui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A14C91C-F6F4-414B-DFF8-F5FC035AA837}|Unity.TextMeshPro.csproj|solutionrelative:library\\packagecache\\com.unity.textmeshpro@3.0.6\\scripts\\runtime\\textmeshprougui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|D:\\Repos\\Visual Novel\\assets\\scripts\\unitytextwriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\unitytextwriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|D:\\Repos\\Visual Novel\\assets\\scripts\\novel\\engine\\unityruntimeengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\novel\\engine\\unityruntimeengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|D:\\Repos\\Visual Novel\\assets\\plugins\\rendisco\\rendisco\\antlr4\\rendisco\\renpyvisitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|solutionrelative:assets\\plugins\\rendisco\\rendisco\\antlr4\\rendisco\\renpyvisitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|D:\\Repos\\Visual Novel\\assets\\scripts\\novel\\novelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\novel\\novelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|D:\\Repos\\Visual Novel\\assets\\scripts\\novel\\implementation\\unitycommandfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\novel\\implementation\\unitycommandfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|D:\\Repos\\Visual Novel\\assets\\scripts\\dialoguecomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialoguecomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|D:\\Repos\\Visual Novel\\assets\\scripts\\novel\\managers\\dialoguemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\novel\\managers\\dialoguemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|D:\\Repos\\Visual Novel\\assets\\plugins\\rendisco\\rendisco\\antlr4\\rendisco\\renpybaselistener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|solutionrelative:assets\\plugins\\rendisco\\rendisco\\antlr4\\rendisco\\renpybaselistener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|D:\\Repos\\Visual Novel\\assets\\plugins\\rendisco\\rendisco\\antlr4\\rendisco\\renpylexer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|solutionrelative:assets\\plugins\\rendisco\\rendisco\\antlr4\\rendisco\\renpylexer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|D:\\Repos\\Visual Novel\\assets\\plugins\\rendisco\\rendisco\\antlr4\\rendisco\\renpylistener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|solutionrelative:assets\\plugins\\rendisco\\rendisco\\antlr4\\rendisco\\renpylistener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|D:\\Repos\\Visual Novel\\assets\\plugins\\rendisco\\rendisco\\implementation\\commands\\consoleshowimagecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|solutionrelative:assets\\plugins\\rendisco\\rendisco\\implementation\\commands\\consoleshowimagecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|D:\\Repos\\Visual Novel\\assets\\plugins\\rendisco\\rendisco\\expression.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|solutionrelative:assets\\plugins\\rendisco\\rendisco\\expression.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|D:\\Repos\\Visual Novel\\assets\\plugins\\rendisco\\rendisco\\expressionevaluate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|solutionrelative:assets\\plugins\\rendisco\\rendisco\\expressionevaluate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|D:\\Repos\\Visual Novel\\assets\\plugins\\rendisco\\rendisco\\new rendisco\\executor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|solutionrelative:assets\\plugins\\rendisco\\rendisco\\new rendisco\\executor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|D:\\Repos\\Visual Novel\\assets\\plugins\\rendisco\\rendisco\\instructionresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|solutionrelative:assets\\plugins\\rendisco\\rendisco\\instructionresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|D:\\Repos\\Visual Novel\\assets\\plugins\\rendisco\\rendisco\\new rendisco\\commands\\menucommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|solutionrelative:assets\\plugins\\rendisco\\rendisco\\new rendisco\\commands\\menucommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|D:\\Repos\\Visual Novel\\assets\\plugins\\rendisco\\rendisco\\new rendisco\\defaultsignals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|solutionrelative:assets\\plugins\\rendisco\\rendisco\\new rendisco\\defaultsignals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|D:\\Repos\\Visual Novel\\assets\\scripts\\novel\\implementation\\unitystorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\novel\\implementation\\unitystorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|D:\\Repos\\Visual Novel\\assets\\plugins\\rendisco\\rendisco\\implementation\\commands\\consoledefinecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -77,34 +196,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|D:\\Repos\\Visual Novel\\assets\\plugins\\rendisco\\rendisco\\implementation\\consolestorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|solutionrelative:assets\\plugins\\rendisco\\rendisco\\implementation\\consolestorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|D:\\Repos\\Visual Novel\\assets\\plugins\\rendisco\\rendisco\\new rendisco\\executor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|solutionrelative:assets\\plugins\\rendisco\\rendisco\\new rendisco\\executor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|D:\\Repos\\Visual Novel\\assets\\plugins\\rendisco\\rendisco\\new rendisco\\commandfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|solutionrelative:assets\\plugins\\rendisco\\rendisco\\new rendisco\\commandfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|D:\\Repos\\Visual Novel\\assets\\plugins\\rendisco\\rendisco\\instruction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|solutionrelative:assets\\plugins\\rendisco\\rendisco\\instruction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|D:\\Repos\\Visual Novel\\assets\\plugins\\rendisco\\rendisco\\new rendisco\\commands\\menucommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|solutionrelative:assets\\plugins\\rendisco\\rendisco\\new rendisco\\commands\\menucommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|D:\\Repos\\Visual Novel\\assets\\plugins\\rendisco\\rendisco\\new rendisco\\signalbroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|solutionrelative:assets\\plugins\\rendisco\\rendisco\\new rendisco\\signalbroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|D:\\Repos\\Visual Novel\\assets\\plugins\\rendisco\\rendisco\\new rendisco\\waitablemessagebroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E7F23CA-4DDC-9D3A-5105-B3DC50BF9392}|rendisco.csproj|solutionrelative:assets\\plugins\\rendisco\\rendisco\\new rendisco\\waitablemessagebroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|D:\\Repos\\Visual Novel\\assets\\scripts\\dialoguecomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16CC5442-249A-72BE-6379-C2EF2BBA63D7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialoguecomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Repos\\Visual Novel\\assets\\scripts\\novel\\implementation\\commands\\consoledefinecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -118,37 +209,141 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DialogueManager.cs",
-              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Novel\\Managers\\DialogueManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Novel\\Managers\\DialogueManager.cs",
-              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Novel\\Managers\\DialogueManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Novel\\Managers\\DialogueManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 4,
+              "Title": "UnityDialogueCommand.cs",
+              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Novel\\Implementation\\Commands\\UnityDialogueCommand.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Novel\\Implementation\\Commands\\UnityDialogueCommand.cs",
+              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Novel\\Implementation\\Commands\\UnityDialogueCommand.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Novel\\Implementation\\Commands\\UnityDialogueCommand.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB0AAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-07T13:31:39.374Z",
+              "WhenOpened": "2025-08-27T11:48:05.639Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "NovelManager.cs",
-              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Novel\\NovelManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Novel\\NovelManager.cs",
-              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Novel\\NovelManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Novel\\NovelManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "UnityShowImageCommand.cs",
+              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Novel\\Implementation\\Commands\\UnityShowImageCommand.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Novel\\Implementation\\Commands\\UnityShowImageCommand.cs",
+              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Novel\\Implementation\\Commands\\UnityShowImageCommand.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Novel\\Implementation\\Commands\\UnityShowImageCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-07T13:30:25.281Z",
+              "WhenOpened": "2025-08-27T11:58:47.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FileLoader.cs",
+              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Novel\\Loader\\FileLoader.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Novel\\Loader\\FileLoader.cs",
+              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Novel\\Loader\\FileLoader.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Novel\\Loader\\FileLoader.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAowDIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T12:05:01.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Command.cs",
+              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\New Rendisco\\Command.cs",
+              "RelativeDocumentMoniker": "Assets\\Plugins\\rendisco\\RenDisco\\New Rendisco\\Command.cs",
+              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\New Rendisco\\Command.cs",
+              "RelativeToolTip": "Assets\\Plugins\\rendisco\\RenDisco\\New Rendisco\\Command.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T12:01:57.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Game.cs",
+              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\Game.cs",
+              "RelativeDocumentMoniker": "Assets\\Plugins\\rendisco\\RenDisco\\Game.cs",
+              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\Game.cs",
+              "RelativeToolTip": "Assets\\Plugins\\rendisco\\RenDisco\\Game.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAAsAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T20:40:23.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AsyncStepper.cs",
+              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\AsyncStepper.cs",
+              "RelativeDocumentMoniker": "Assets\\Plugins\\rendisco\\RenDisco\\AsyncStepper.cs",
+              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\AsyncStepper.cs",
+              "RelativeToolTip": "Assets\\Plugins\\rendisco\\RenDisco\\AsyncStepper.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAASwBMAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T12:17:58.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RenpyConsole.cs",
+              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\RenpyConsole.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RenpyConsole.cs",
+              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\RenpyConsole.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RenpyConsole.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAADgvzwAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T20:35:04.655Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "InstructionContext.cs",
+              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\InstructionContext.cs",
+              "RelativeDocumentMoniker": "Assets\\Plugins\\rendisco\\RenDisco\\InstructionContext.cs",
+              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\InstructionContext.cs",
+              "RelativeToolTip": "Assets\\Plugins\\rendisco\\RenDisco\\InstructionContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T18:54:14.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Instruction.cs",
+              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\Instruction.cs",
+              "RelativeDocumentMoniker": "Assets\\Plugins\\rendisco\\RenDisco\\Instruction.cs",
+              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\Instruction.cs",
+              "RelativeToolTip": "Assets\\Plugins\\rendisco\\RenDisco\\Instruction.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAgwGMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T20:39:27.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UnityHideCommand.cs",
+              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Novel\\Implementation\\Commands\\UnityHideCommand.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Novel\\Implementation\\Commands\\UnityHideCommand.cs",
+              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Novel\\Implementation\\Commands\\UnityHideCommand.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Novel\\Implementation\\Commands\\UnityHideCommand.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAABMAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T11:56:11.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "UnityDefineCommand.cs",
               "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Novel\\Implementation\\Commands\\UnityDefineCommand.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Novel\\Implementation\\Commands\\UnityDefineCommand.cs",
@@ -161,85 +356,429 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RenpyConsole.cs",
-              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\RenpyConsole.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\RenpyConsole.cs",
-              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\RenpyConsole.cs",
-              "RelativeToolTip": "Assets\\Scripts\\RenpyConsole.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAiwD4AAAAWAAAA",
+              "DocumentIndex": 11,
+              "Title": "RenpyParser.cs",
+              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\Antlr4\\RenDisco\\RenpyParser.cs",
+              "RelativeDocumentMoniker": "Assets\\Plugins\\rendisco\\RenDisco\\Antlr4\\RenDisco\\RenpyParser.cs",
+              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\Antlr4\\RenDisco\\RenpyParser.cs",
+              "RelativeToolTip": "Assets\\Plugins\\rendisco\\RenDisco\\Antlr4\\RenDisco\\RenpyParser.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAADgvzgAAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T20:35:04.655Z",
+              "WhenOpened": "2025-09-12T12:15:13.07Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 12,
+              "Title": "AntlrRenpyParser.cs",
+              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\AntlrRenpyParser.cs",
+              "RelativeDocumentMoniker": "Assets\\Plugins\\rendisco\\RenDisco\\AntlrRenpyParser.cs",
+              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\AntlrRenpyParser.cs",
+              "RelativeToolTip": "Assets\\Plugins\\rendisco\\RenDisco\\AntlrRenpyParser.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAADgvzcAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T19:05:53.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "WaitableMessageBroker.cs",
+              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\New Rendisco\\WaitableMessageBroker.cs",
+              "RelativeDocumentMoniker": "Assets\\Plugins\\rendisco\\RenDisco\\New Rendisco\\WaitableMessageBroker.cs",
+              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\New Rendisco\\WaitableMessageBroker.cs",
+              "RelativeToolTip": "Assets\\Plugins\\rendisco\\RenDisco\\New Rendisco\\WaitableMessageBroker.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAADsAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T20:15:16.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RenpyBaseVisitor.cs",
+              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\Antlr4\\RenDisco\\RenpyBaseVisitor.cs",
+              "RelativeDocumentMoniker": "Assets\\Plugins\\rendisco\\RenDisco\\Antlr4\\RenDisco\\RenpyBaseVisitor.cs",
+              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\Antlr4\\RenDisco\\RenpyBaseVisitor.cs",
+              "RelativeToolTip": "Assets\\Plugins\\rendisco\\RenDisco\\Antlr4\\RenDisco\\RenpyBaseVisitor.cs",
+              "ViewState": "AQIAAAkBAAAAAAAAAADgvyMAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T12:15:16.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UnityPlayMusicCommand.cs",
+              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Novel\\Implementation\\Commands\\UnityPlayMusicCommand.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Novel\\Implementation\\Commands\\UnityPlayMusicCommand.cs",
+              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Novel\\Implementation\\Commands\\UnityPlayMusicCommand.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Novel\\Implementation\\Commands\\UnityPlayMusicCommand.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAABAAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T11:58:38.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UnityShowSceneCommand.cs",
+              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Novel\\Implementation\\Commands\\UnityShowSceneCommand.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Novel\\Implementation\\Commands\\UnityShowSceneCommand.cs",
+              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Novel\\Implementation\\Commands\\UnityShowSceneCommand.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Novel\\Implementation\\Commands\\UnityShowSceneCommand.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAABMAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T11:58:55.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UnityStopMusicCommand.cs",
+              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Novel\\Implementation\\Commands\\UnityStopMusicCommand.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Novel\\Implementation\\Commands\\UnityStopMusicCommand.cs",
+              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Novel\\Implementation\\Commands\\UnityStopMusicCommand.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Novel\\Implementation\\Commands\\UnityStopMusicCommand.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAABMAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T11:59:04.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ConsoleStopMusicCommand.cs",
+              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\Implementation\\Commands\\ConsoleStopMusicCommand.cs",
+              "RelativeDocumentMoniker": "Assets\\Plugins\\rendisco\\RenDisco\\Implementation\\Commands\\ConsoleStopMusicCommand.cs",
+              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\Implementation\\Commands\\ConsoleStopMusicCommand.cs",
+              "RelativeToolTip": "Assets\\Plugins\\rendisco\\RenDisco\\Implementation\\Commands\\ConsoleStopMusicCommand.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABIAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T07:39:09.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ConsoleDialogueCommand.cs",
+              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\Implementation\\Commands\\ConsoleDialogueCommand.cs",
+              "RelativeDocumentMoniker": "Assets\\Plugins\\rendisco\\RenDisco\\Implementation\\Commands\\ConsoleDialogueCommand.cs",
+              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\Implementation\\Commands\\ConsoleDialogueCommand.cs",
+              "RelativeToolTip": "Assets\\Plugins\\rendisco\\RenDisco\\Implementation\\Commands\\ConsoleDialogueCommand.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAABEAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T07:39:23.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ConsoleNarrationCommand.cs",
+              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\Implementation\\Commands\\ConsoleNarrationCommand.cs",
+              "RelativeDocumentMoniker": "Assets\\Plugins\\rendisco\\RenDisco\\Implementation\\Commands\\ConsoleNarrationCommand.cs",
+              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\Implementation\\Commands\\ConsoleNarrationCommand.cs",
+              "RelativeToolTip": "Assets\\Plugins\\rendisco\\RenDisco\\Implementation\\Commands\\ConsoleNarrationCommand.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABIAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T07:39:31.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ConsolePlayMusicCommand.cs",
+              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\Implementation\\Commands\\ConsolePlayMusicCommand.cs",
+              "RelativeDocumentMoniker": "Assets\\Plugins\\rendisco\\RenDisco\\Implementation\\Commands\\ConsolePlayMusicCommand.cs",
+              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\Implementation\\Commands\\ConsolePlayMusicCommand.cs",
+              "RelativeToolTip": "Assets\\Plugins\\rendisco\\RenDisco\\Implementation\\Commands\\ConsolePlayMusicCommand.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAA8AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T07:39:32.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "SignalBroker.cs",
+              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\New Rendisco\\SignalBroker.cs",
+              "RelativeDocumentMoniker": "Assets\\Plugins\\rendisco\\RenDisco\\New Rendisco\\SignalBroker.cs",
+              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\New Rendisco\\SignalBroker.cs",
+              "RelativeToolTip": "Assets\\Plugins\\rendisco\\RenDisco\\New Rendisco\\SignalBroker.cs",
+              "ViewState": "AQIAAGcAAAAAAAAAAAAgwIQAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T20:15:24.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ConsoleHideCommand.cs",
+              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\Implementation\\Commands\\ConsoleHideCommand.cs",
+              "RelativeDocumentMoniker": "Assets\\Plugins\\rendisco\\RenDisco\\Implementation\\Commands\\ConsoleHideCommand.cs",
+              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\Implementation\\Commands\\ConsoleHideCommand.cs",
+              "RelativeToolTip": "Assets\\Plugins\\rendisco\\RenDisco\\Implementation\\Commands\\ConsoleHideCommand.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABIAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T07:39:09.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UnityNarrationCommand.cs",
+              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Novel\\Implementation\\Commands\\UnityNarrationCommand.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Novel\\Implementation\\Commands\\UnityNarrationCommand.cs",
+              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Novel\\Implementation\\Commands\\UnityNarrationCommand.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Novel\\Implementation\\Commands\\UnityNarrationCommand.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAABMAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T11:56:24.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ConsoleRuntimeEngine.cs",
+              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\ConsoleRuntimeEngine.cs",
+              "RelativeDocumentMoniker": "Assets\\Plugins\\rendisco\\RenDisco\\ConsoleRuntimeEngine.cs",
+              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\ConsoleRuntimeEngine.cs",
+              "RelativeToolTip": "Assets\\Plugins\\rendisco\\RenDisco\\ConsoleRuntimeEngine.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAgwEUAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T18:54:09.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CommandFactory.cs",
+              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\New Rendisco\\CommandFactory.cs",
+              "RelativeDocumentMoniker": "Assets\\Plugins\\rendisco\\RenDisco\\New Rendisco\\CommandFactory.cs",
+              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\New Rendisco\\CommandFactory.cs",
+              "RelativeToolTip": "Assets\\Plugins\\rendisco\\RenDisco\\New Rendisco\\CommandFactory.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAgwD0AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T20:40:10.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "test.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\Desktop\\test.cs",
+              "ToolTip": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\Desktop\\test.cs",
+              "ViewState": "AQIAAH8AAAAAAAAAAAAgwJUAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T16:26:36.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "TextMeshProUGUI.cs",
+              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Library\\PackageCache\\com.unity.textmeshpro@3.0.6\\Scripts\\Runtime\\TextMeshProUGUI.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.textmeshpro@3.0.6\\Scripts\\Runtime\\TextMeshProUGUI.cs",
+              "ToolTip": "D:\\Repos\\Visual Novel\\Library\\PackageCache\\com.unity.textmeshpro@3.0.6\\Scripts\\Runtime\\TextMeshProUGUI.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.textmeshpro@3.0.6\\Scripts\\Runtime\\TextMeshProUGUI.cs",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAAAFUAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T08:49:14.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
               "Title": "UnityTextWriter.cs",
               "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\UnityTextWriter.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UnityTextWriter.cs",
               "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\UnityTextWriter.cs",
               "RelativeToolTip": "Assets\\Scripts\\UnityTextWriter.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABHAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAgwCgAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T20:35:03.913Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-26T20:35:03.913Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AsyncStepper.cs",
-              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\AsyncStepper.cs",
-              "RelativeDocumentMoniker": "Assets\\Plugins\\rendisco\\RenDisco\\AsyncStepper.cs",
-              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\AsyncStepper.cs",
-              "RelativeToolTip": "Assets\\Plugins\\rendisco\\RenDisco\\AsyncStepper.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAASwB4AAAAkAAAA",
+              "DocumentIndex": 30,
+              "Title": "UnityRuntimeEngine.cs",
+              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Novel\\Engine\\UnityRuntimeEngine.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Novel\\Engine\\UnityRuntimeEngine.cs",
+              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Novel\\Engine\\UnityRuntimeEngine.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Novel\\Engine\\UnityRuntimeEngine.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T12:17:58.069Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-13T07:52:16.97Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Game.cs",
-              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\Game.cs",
-              "RelativeDocumentMoniker": "Assets\\Plugins\\rendisco\\RenDisco\\Game.cs",
-              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\Game.cs",
-              "RelativeToolTip": "Assets\\Plugins\\rendisco\\RenDisco\\Game.cs",
-              "ViewState": "AQIAAPkAAAAAAAAAAAAAABQBAAA3AAAA",
+              "DocumentIndex": 32,
+              "Title": "NovelManager.cs",
+              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Novel\\NovelManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Novel\\NovelManager.cs",
+              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Novel\\NovelManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Novel\\NovelManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T20:40:23.24Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-07T13:30:25.281Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Command.cs",
-              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\New Rendisco\\Command.cs",
-              "RelativeDocumentMoniker": "Assets\\Plugins\\rendisco\\RenDisco\\New Rendisco\\Command.cs",
-              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\New Rendisco\\Command.cs",
-              "RelativeToolTip": "Assets\\Plugins\\rendisco\\RenDisco\\New Rendisco\\Command.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAASwBcAAAAhAAAA",
+              "DocumentIndex": 31,
+              "Title": "RenpyVisitor.cs",
+              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\Antlr4\\RenDisco\\RenpyVisitor.cs",
+              "RelativeDocumentMoniker": "Assets\\Plugins\\rendisco\\RenDisco\\Antlr4\\RenDisco\\RenpyVisitor.cs",
+              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\Antlr4\\RenDisco\\RenpyVisitor.cs",
+              "RelativeToolTip": "Assets\\Plugins\\rendisco\\RenDisco\\Antlr4\\RenDisco\\RenpyVisitor.cs",
+              "ViewState": "AQIAAEwAAAAAAAAAAABBwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T12:01:57.361Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-12T18:59:34.239Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 34,
+              "Title": "DialogueComponent.cs",
+              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\DialogueComponent.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DialogueComponent.cs",
+              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\DialogueComponent.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DialogueComponent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T20:14:23.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
               "Title": "UnityCommandFactory.cs",
               "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Novel\\Implementation\\UnityCommandFactory.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Novel\\Implementation\\UnityCommandFactory.cs",
               "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Novel\\Implementation\\UnityCommandFactory.cs",
               "RelativeToolTip": "Assets\\Scripts\\Novel\\Implementation\\UnityCommandFactory.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAABHAAAA",
+              "ViewState": "AQIAACUAAAAAAAAAAAAnwDEAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T11:59:14.986Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-27T11:59:14.986Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 35,
+              "Title": "DialogueManager.cs",
+              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Novel\\Managers\\DialogueManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Novel\\Managers\\DialogueManager.cs",
+              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Novel\\Managers\\DialogueManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Novel\\Managers\\DialogueManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T13:31:39.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "RenpyBaseListener.cs",
+              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\Antlr4\\RenDisco\\RenpyBaseListener.cs",
+              "RelativeDocumentMoniker": "Assets\\Plugins\\rendisco\\RenDisco\\Antlr4\\RenDisco\\RenpyBaseListener.cs",
+              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\Antlr4\\RenDisco\\RenpyBaseListener.cs",
+              "RelativeToolTip": "Assets\\Plugins\\rendisco\\RenDisco\\Antlr4\\RenDisco\\RenpyBaseListener.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T12:15:16.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "RenpyLexer.cs",
+              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\Antlr4\\RenDisco\\RenpyLexer.cs",
+              "RelativeDocumentMoniker": "Assets\\Plugins\\rendisco\\RenDisco\\Antlr4\\RenDisco\\RenpyLexer.cs",
+              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\Antlr4\\RenDisco\\RenpyLexer.cs",
+              "RelativeToolTip": "Assets\\Plugins\\rendisco\\RenDisco\\Antlr4\\RenDisco\\RenpyLexer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T12:15:15.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "RenpyListener.cs",
+              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\Antlr4\\RenDisco\\RenpyListener.cs",
+              "RelativeDocumentMoniker": "Assets\\Plugins\\rendisco\\RenDisco\\Antlr4\\RenDisco\\RenpyListener.cs",
+              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\Antlr4\\RenDisco\\RenpyListener.cs",
+              "RelativeToolTip": "Assets\\Plugins\\rendisco\\RenDisco\\Antlr4\\RenDisco\\RenpyListener.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T12:15:14.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ConsoleShowImageCommand.cs",
+              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\Implementation\\Commands\\ConsoleShowImageCommand.cs",
+              "RelativeDocumentMoniker": "Assets\\Plugins\\rendisco\\RenDisco\\Implementation\\Commands\\ConsoleShowImageCommand.cs",
+              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\Implementation\\Commands\\ConsoleShowImageCommand.cs",
+              "RelativeToolTip": "Assets\\Plugins\\rendisco\\RenDisco\\Implementation\\Commands\\ConsoleShowImageCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T07:39:33.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Expression.cs",
+              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\Expression.cs",
+              "RelativeDocumentMoniker": "Assets\\Plugins\\rendisco\\RenDisco\\Expression.cs",
+              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\Expression.cs",
+              "RelativeToolTip": "Assets\\Plugins\\rendisco\\RenDisco\\Expression.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T18:54:10.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ExpressionEvaluate.cs",
+              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\ExpressionEvaluate.cs",
+              "RelativeDocumentMoniker": "Assets\\Plugins\\rendisco\\RenDisco\\ExpressionEvaluate.cs",
+              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\ExpressionEvaluate.cs",
+              "RelativeToolTip": "Assets\\Plugins\\rendisco\\RenDisco\\ExpressionEvaluate.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAABBwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T18:54:28.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Executor.cs",
+              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\New Rendisco\\Executor.cs",
+              "RelativeDocumentMoniker": "Assets\\Plugins\\rendisco\\RenDisco\\New Rendisco\\Executor.cs",
+              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\New Rendisco\\Executor.cs",
+              "RelativeToolTip": "Assets\\Plugins\\rendisco\\RenDisco\\New Rendisco\\Executor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T20:39:50.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "InstructionResult.cs",
+              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\InstructionResult.cs",
+              "RelativeDocumentMoniker": "Assets\\Plugins\\rendisco\\RenDisco\\InstructionResult.cs",
+              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\InstructionResult.cs",
+              "RelativeToolTip": "Assets\\Plugins\\rendisco\\RenDisco\\InstructionResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T18:54:13.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "MenuCommand.cs",
+              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\New Rendisco\\Commands\\MenuCommand.cs",
+              "RelativeDocumentMoniker": "Assets\\Plugins\\rendisco\\RenDisco\\New Rendisco\\Commands\\MenuCommand.cs",
+              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\New Rendisco\\Commands\\MenuCommand.cs",
+              "RelativeToolTip": "Assets\\Plugins\\rendisco\\RenDisco\\New Rendisco\\Commands\\MenuCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T20:34:37.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "DefaultSignals.cs",
+              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\New Rendisco\\DefaultSignals.cs",
+              "RelativeDocumentMoniker": "Assets\\Plugins\\rendisco\\RenDisco\\New Rendisco\\DefaultSignals.cs",
+              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\New Rendisco\\DefaultSignals.cs",
+              "RelativeToolTip": "Assets\\Plugins\\rendisco\\RenDisco\\New Rendisco\\DefaultSignals.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T08:24:25.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
               "Title": "UnityStorage.cs",
               "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Novel\\Implementation\\UnityStorage.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Novel\\Implementation\\UnityStorage.cs",
@@ -251,92 +790,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UnityDialogueCommand.cs",
-              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Novel\\Implementation\\Commands\\UnityDialogueCommand.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Novel\\Implementation\\Commands\\UnityDialogueCommand.cs",
-              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Novel\\Implementation\\Commands\\UnityDialogueCommand.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Novel\\Implementation\\Commands\\UnityDialogueCommand.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABoAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T11:48:05.639Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "UnityStopMusicCommand.cs",
-              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Novel\\Implementation\\Commands\\UnityStopMusicCommand.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Novel\\Implementation\\Commands\\UnityStopMusicCommand.cs",
-              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Novel\\Implementation\\Commands\\UnityStopMusicCommand.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Novel\\Implementation\\Commands\\UnityStopMusicCommand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T11:59:04.966Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "UnityShowSceneCommand.cs",
-              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Novel\\Implementation\\Commands\\UnityShowSceneCommand.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Novel\\Implementation\\Commands\\UnityShowSceneCommand.cs",
-              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Novel\\Implementation\\Commands\\UnityShowSceneCommand.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Novel\\Implementation\\Commands\\UnityShowSceneCommand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T11:58:55.73Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "UnityShowImageCommand.cs",
-              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Novel\\Implementation\\Commands\\UnityShowImageCommand.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Novel\\Implementation\\Commands\\UnityShowImageCommand.cs",
-              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Novel\\Implementation\\Commands\\UnityShowImageCommand.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Novel\\Implementation\\Commands\\UnityShowImageCommand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T11:58:47.661Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "UnityPlayMusicCommand.cs",
-              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Novel\\Implementation\\Commands\\UnityPlayMusicCommand.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Novel\\Implementation\\Commands\\UnityPlayMusicCommand.cs",
-              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Novel\\Implementation\\Commands\\UnityPlayMusicCommand.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Novel\\Implementation\\Commands\\UnityPlayMusicCommand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T11:58:38.078Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "UnityNarrationCommand.cs",
-              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Novel\\Implementation\\Commands\\UnityNarrationCommand.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Novel\\Implementation\\Commands\\UnityNarrationCommand.cs",
-              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Novel\\Implementation\\Commands\\UnityNarrationCommand.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Novel\\Implementation\\Commands\\UnityNarrationCommand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T11:56:24.778Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "UnityHideCommand.cs",
-              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Novel\\Implementation\\Commands\\UnityHideCommand.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Novel\\Implementation\\Commands\\UnityHideCommand.cs",
-              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Novel\\Implementation\\Commands\\UnityHideCommand.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Novel\\Implementation\\Commands\\UnityHideCommand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T11:56:11.418Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 49,
               "Title": "ConsoleDefineCommand.cs",
               "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\Novel\\Implementation\\Commands\\ConsoleDefineCommand.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Novel\\Implementation\\Commands\\ConsoleDefineCommand.cs",
@@ -348,7 +802,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 47,
               "Title": "ConsoleDefineCommand.cs",
               "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\Implementation\\Commands\\ConsoleDefineCommand.cs",
               "RelativeDocumentMoniker": "Assets\\Plugins\\rendisco\\RenDisco\\Implementation\\Commands\\ConsoleDefineCommand.cs",
@@ -360,7 +814,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 48,
               "Title": "ConsoleStorage.cs",
               "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\Implementation\\ConsoleStorage.cs",
               "RelativeDocumentMoniker": "Assets\\Plugins\\rendisco\\RenDisco\\Implementation\\ConsoleStorage.cs",
@@ -369,90 +823,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-26T20:45:22.066Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "CommandFactory.cs",
-              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\New Rendisco\\CommandFactory.cs",
-              "RelativeDocumentMoniker": "Assets\\Plugins\\rendisco\\RenDisco\\New Rendisco\\CommandFactory.cs",
-              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\New Rendisco\\CommandFactory.cs",
-              "RelativeToolTip": "Assets\\Plugins\\rendisco\\RenDisco\\New Rendisco\\CommandFactory.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T20:40:10.599Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Executor.cs",
-              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\New Rendisco\\Executor.cs",
-              "RelativeDocumentMoniker": "Assets\\Plugins\\rendisco\\RenDisco\\New Rendisco\\Executor.cs",
-              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\New Rendisco\\Executor.cs",
-              "RelativeToolTip": "Assets\\Plugins\\rendisco\\RenDisco\\New Rendisco\\Executor.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T20:39:50.626Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Instruction.cs",
-              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\Instruction.cs",
-              "RelativeDocumentMoniker": "Assets\\Plugins\\rendisco\\RenDisco\\Instruction.cs",
-              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\Instruction.cs",
-              "RelativeToolTip": "Assets\\Plugins\\rendisco\\RenDisco\\Instruction.cs",
-              "ViewState": "AQIAACoBAAAAAAAAAAASwDsBAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T20:39:27.522Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "MenuCommand.cs",
-              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\New Rendisco\\Commands\\MenuCommand.cs",
-              "RelativeDocumentMoniker": "Assets\\Plugins\\rendisco\\RenDisco\\New Rendisco\\Commands\\MenuCommand.cs",
-              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\New Rendisco\\Commands\\MenuCommand.cs",
-              "RelativeToolTip": "Assets\\Plugins\\rendisco\\RenDisco\\New Rendisco\\Commands\\MenuCommand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T20:34:37.863Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "SignalBroker.cs",
-              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\New Rendisco\\SignalBroker.cs",
-              "RelativeDocumentMoniker": "Assets\\Plugins\\rendisco\\RenDisco\\New Rendisco\\SignalBroker.cs",
-              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\New Rendisco\\SignalBroker.cs",
-              "RelativeToolTip": "Assets\\Plugins\\rendisco\\RenDisco\\New Rendisco\\SignalBroker.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAiwEgAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T20:15:24.842Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "WaitableMessageBroker.cs",
-              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\New Rendisco\\WaitableMessageBroker.cs",
-              "RelativeDocumentMoniker": "Assets\\Plugins\\rendisco\\RenDisco\\New Rendisco\\WaitableMessageBroker.cs",
-              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Plugins\\rendisco\\RenDisco\\New Rendisco\\WaitableMessageBroker.cs",
-              "RelativeToolTip": "Assets\\Plugins\\rendisco\\RenDisco\\New Rendisco\\WaitableMessageBroker.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T20:15:16.296Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "DialogueComponent.cs",
-              "DocumentMoniker": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\DialogueComponent.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\DialogueComponent.cs",
-              "ToolTip": "D:\\Repos\\Visual Novel\\Assets\\Scripts\\DialogueComponent.cs",
-              "RelativeToolTip": "Assets\\Scripts\\DialogueComponent.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T20:14:23.282Z"
             }
           ]
         }

@@ -1,4 +1,5 @@
 ﻿using Implementation.Commands;
+using Novel.Managers;
 using RenDisco;
 using RenDisco.Commands;
 using RenDisco.Implementation.Commands;
@@ -9,12 +10,12 @@ namespace Implementation
 {
     public class UnityCommandFactory : CommandFactory
     {
-        public UnityCommandFactory(DialogueComponent dialogueComponent, IStorage storage) : base(storage)
+        public UnityCommandFactory(DialogueManager dialogueComponent, IStorage storage) : base(storage)
         {
             DialogueComponent = dialogueComponent;
         }
 
-        public DialogueComponent DialogueComponent { get; }
+        public DialogueManager DialogueComponent { get; }
 
         protected override DefineCommand CreateDefineCommand(Define define)
         {

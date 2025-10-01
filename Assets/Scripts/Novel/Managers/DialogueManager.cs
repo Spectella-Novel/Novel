@@ -1,15 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using TMPro;
+﻿using TMPro;
+using UnityEngine;
+using UnityEngine.UI;
 
 namespace Novel.Managers
 {
-    public class DialogueManager
+    public class DialogueManager : MonoBehaviour
     {
-        public TextMeshPro Text;
+        public TMP_Text Text;
 
         public void SetDialogueText(string text)
         {

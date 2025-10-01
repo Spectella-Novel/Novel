@@ -1,4 +1,6 @@
-﻿using RenDisco;
+﻿using Novel.Loader;
+using Novel.Managers;
+using RenDisco;
 using RenDisco.Commands;
 using System;
 using System.Collections.Generic;
@@ -12,21 +14,23 @@ namespace Implementation.Commands
 {
     internal class UnityDialogueCommand : DialogueCommand
     {
-        public UnityDialogueCommand(Dialogue instruction, DialogueComponent dialogueComponent, SynchronizationContext synchronizationContext) : base(instruction, synchronizationContext)
+        public UnityDialogueCommand(Dialogue instruction, DialogueManager dialogueComponent, SynchronizationContext synchronizationContext) : base(instruction, synchronizationContext)
         {
             DialogueComponent = dialogueComponent;
         }
 
-        public DialogueComponent DialogueComponent { get; }
+        public DialogueManager DialogueComponent { get; }
 
         public override InstructionResult Execute()
         {
-            
             InvokeInContext(dialoigue =>
             {
-                Debug.Log("log");
+                dialoigue.SetDialogueText(Instruction.Text);
             }, DialogueComponent);
-            SynchronizationContext.Post(state => { Console.WriteLine(Thread.CurrentThread.Name + " Dialogue"); }, null);
+            Debug.Log("Ждум");
+            Debug.Log(FileLoader.GetPath("", ""));
+            SignalBroker.Emit(DefaultSignals.AnyAction);
+            WaitableMessageBroker.WaitForMessage(DefaultSignals.AnyAction);
             return null;
         }
 

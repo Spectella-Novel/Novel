@@ -1,18 +1,25 @@
-﻿using RenDisco;
+﻿using Novel.Loader;
+using RenDisco;
 using RenDisco.Commands;
 using System;
 using System.Threading;
-using System.Threading.Tasks;
+using UnityEngine;
+using UnityEngine.UI;
 
 namespace Implementation.Commands
 {
     internal class UnityShowImageCommand : ShowImageCommand
     {
         public UnityShowImageCommand(Show instruction, SynchronizationContext synchronizationContext) : base(instruction, synchronizationContext) { }
-
+        public Image image { get; private set; }
         public override InstructionResult Execute()
         {
-            Console.WriteLine(Instruction.Transition == null ? $"Show Image: {Instruction.Image}" : $"Show Image: {Instruction.Image} with {Instruction.Transition} transition");
+
+            InvokeInContext(image =>
+            {
+                var texture = FileLoader.LoadImage(Instruction.Image);
+
+            }, image);
             return null;
         }
 

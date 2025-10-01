@@ -7,19 +7,19 @@ using System.Threading;
 using RenDisco.Implementation;
 using System.Threading.Tasks;
 using Implementation;
+using Novel.Managers;
+using System.Collections;
+using Novel.Loader;
 
 public class RenpyConsole : MonoBehaviour
 {
-    private Game game;
     private AsyncStepper _stepper;
-    private Action Delegate;
-    [SerializeField] private DialogueComponent dialogue;
+    [SerializeField] private DialogueManager dialogue;
 
     // Start is called before the first frame update
     async void Start()
     {
-        System.Console.SetOut(new UnityTextWriter());
-        Console.WriteLine("Test");
+        System.Console.SetOut(new UnityTextWriter());;
         string script = @"
             define e = Character(""e"")
             label start:
@@ -28,6 +28,7 @@ public class RenpyConsole : MonoBehaviour
 
             label start_2:
                 e ""start_2, world!""
+                show ""Image"" a
                 # Варианты ответа
                 menu:
                     ""Попробовать подбодрить Анну"":
@@ -55,18 +56,35 @@ public class RenpyConsole : MonoBehaviour
         IRenpyParser parser = new AntlrRenpyParser();
         List<Instruction> commands = parser.Parse(script);
         SignalBroker.Initialize();
+        SignalBroker.On(DefaultSignals.Choice, OnInputHandler);
+        SignalBroker.On(DefaultSignals.AnyAction, OnAnyAction);
+        FileLoader.Init();
         var storage = new UnityStorage();
+        
         var factory = new UnityCommandFactory(dialogue, storage);
+        
         _stepper = new AsyncStepper(commands, factory);
-        Console.WriteLine("start");
-
         _stepper.Start();
-        Delegate = OnInputHandler;
-        SignalBroker.On("Input", Delegate);
+
     }
-    void OnInputHandler()
+    void OnAnyAction(string signal)
     {
-        WaitableMessageBroker.Publish("Input", 1);
+        StartCoroutine(WaitForAnyAction());
+    }
+
+    IEnumerator WaitForAnyAction()
+    {
+        while (!Input.anyKey) {
+            yield return null;
+        }
+        WaitableMessageBroker.Publish(DefaultSignals.AnyAction, null);
+
+    }
+
+    void OnInputHandler(string signal)
+    {
+        WaitableMessageBroker.Publish(DefaultSignals.Choice, 1);
+
     }
 
     // Update is called once per frame
