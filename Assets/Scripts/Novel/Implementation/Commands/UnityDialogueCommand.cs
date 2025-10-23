@@ -21,7 +21,7 @@ namespace Implementation.Commands
 
         public DialogueManager DialogueComponent { get; }
 
-        public override InstructionResult Execute()
+        public override ControlFlowSignal Flow()
         {
             InvokeInContext(dialoigue =>
             {

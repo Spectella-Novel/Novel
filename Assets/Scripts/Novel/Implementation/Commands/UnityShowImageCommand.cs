@@ -12,7 +12,7 @@ namespace Implementation.Commands
     {
         public UnityShowImageCommand(Show instruction, SynchronizationContext synchronizationContext) : base(instruction, synchronizationContext) { }
         public Image image { get; private set; }
-        public override InstructionResult Execute()
+        public override ControlFlowSignal Flow()
         {
 
             InvokeInContext(image =>
