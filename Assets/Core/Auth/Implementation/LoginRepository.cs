@@ -1,13 +1,14 @@
-﻿using Core.NetworkRepositories.Interfaces;
-using Core.Shared;
+﻿using Core.Shared;
 using Core.Http; // Предполагаемый namespace для HTTP-утилит
 using System.Text;
 using UnityEngine;
 using System.Net.Http;
 using Core.Http.Interfaces;
 using System.Threading.Tasks;
+using Core.Auth.Interfaces;
+using System;
 
-namespace Core.NetworkRepositories.Implementation
+namespace Core.Auth.Implementation
 {
     /// <summary>
     /// Repository for handling user login and session refresh via API.
@@ -30,31 +31,37 @@ namespace Core.NetworkRepositories.Implementation
         /// <returns>Session with access token on success</returns>
         public async Task<Result<Session>> Login(LoginCredentials credentials)
         {
-            var payload = new AuthPayload();
+            var payload = new LoginPayload();
             payload.password = credentials.Password;
             payload.login = credentials.Login;
 
             var jsonPayload = JsonUtility.ToJson(payload);
             var body = new StringContent(jsonPayload, Encoding.UTF8, "application/json");
 
-            HttpResult<AuthResponse> response = await _httpService.Request()
+            HttpResult<LoginResponse> response = await _httpService.Request()
                                                     .WithJsonBody(body)
-                                                    .PostAsync<AuthResponse>(LoginUrl);
-
+                                                    .PostAsync<LoginResponse>(LoginUrl);
 
             if (!response.IsSuccess)
             {
-                Debug.LogError($"Login failed: {response.Error}");
+                Debug.LogWarning($"Login failed: {response.Error}");
                 return Result<Session>.Failure(response.Error);
             }
-
             var authResponse = response.Value;
+
             if (authResponse.status != "success")
             {
                 Debug.LogWarning($"Login error: {authResponse.message}");
                 return Result<Session>.Failure(authResponse.message);
             }
-            Session session = null; 
+            var refreshTokenValue = response.GetHeader("refresh_token");
+            if (refreshTokenValue == null)
+            {
+                return Result<Session>.Failure($"LoginRepository:Login(): Error {nameof(refreshTokenValue)} is empty");
+            }
+            RefreshToken refreshToken = new RefreshToken(refreshTokenValue, DateTime.Now.AddMonths(2));
+            AccessToken accessToken = new AccessToken(authResponse.access_token, DateTime.Now.AddSeconds(int.Parse(authResponse.expires_in)));
+            Session session = new SessionBase(refreshToken, accessToken); 
 
             return Result<Session>.Success(session);
         }
@@ -67,7 +74,7 @@ namespace Core.NetworkRepositories.Implementation
     /// Payload model from /api/auth/login, /api/auth/refresh
     /// </summary>
     [System.Serializable]
-    internal class AuthPayload
+    internal class LoginPayload
     {
         public string login;
         public string password;
@@ -77,12 +84,12 @@ namespace Core.NetworkRepositories.Implementation
     /// Response model from /api/auth/login, /api/auth/refresh
     /// </summary>
     [System.Serializable]
-    internal class AuthResponse
+    internal class LoginResponse
     {
         public string status;
         public string message;
         public string access_token;
-        public int expires_in;
+        public string expires_in;
     }
 
     #endregion

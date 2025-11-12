@@ -1,5 +1,4 @@
-﻿using Core.NetworkRepositories;
-using Core.NetworkRepositories.Interfaces;
+﻿using Core.Auth.Interfaces;
 using System;
 
 
@@ -7,18 +6,23 @@ namespace Core.Auth.Implementation
 {
     internal class SessionManager : ISessionManager
     {
-        public AccessToken AccessToken => throw new NotImplementedException();
+        private Session _session;
+        private IRefreshRepository _refreshRepository;
 
-        public bool IsLoggedIn => throw new NotImplementedException();
+        public AccessToken AccessToken => _session.AccessToken;
+
+        public bool IsLoggedIn => true;
 
         public void Init(Session session, IRefreshRepository refreshRepository)
         {
-            throw new NotImplementedException();
+            _session = session;
+            _refreshRepository = refreshRepository;
         }
 
         public void LogOut()
         {
-            throw new NotImplementedException();
+            _session = null;
+            _refreshRepository = null;
         }
     }
 }

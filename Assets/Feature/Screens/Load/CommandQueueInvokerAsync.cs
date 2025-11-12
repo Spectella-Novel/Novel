@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 
 namespace Novel.Feature.Screens.Load
 {
-    public class CommandQueueInvoker : ICommandQueueInvoker
+    public class CommandQueueInvokerAsync : ICommandQueueInvokerAsync
     {
         private Queue<ICommand> _commands = new();
         private Stack<ICommand> _executedCommand = new Stack<ICommand>();

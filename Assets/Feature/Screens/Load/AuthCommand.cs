@@ -1,8 +1,9 @@
-﻿using Core.NetworkRepositories;
-using Core.NetworkRepositories.Implementation;
-using Core.NetworkRepositories.Interfaces;
+﻿using Core.Auth;
+using Core.Auth.Implementation;
+using Core.Auth.Interfaces;
 using Core.Shared;
 using Core.Storage.Interfaces;
+using System.Threading.Tasks;
 
 namespace Novel.Feature.Screens.Load
 {
@@ -39,17 +40,17 @@ namespace Novel.Feature.Screens.Load
         /// 3. If no credentials or login fails — registers a new anonymous user.
         /// </summary>
         /// <returns>Success or failure result</returns>
-        public Result Execute()
+        public async Task<Result> Execute()
         {
             Result<Session> sessionResult;
 
             // Try to load previously saved session
-            sessionResult = _storage.Restore<Session>("Session");
+            sessionResult = await _storage.Restore<Session>("Session");
             if (sessionResult.IsSuccess && sessionResult.Value != default(Session))
             {
 
                 // If refresh failed, attempt regular login
-                sessionResult = _refreshRepository.Refresh(sessionResult.Value);
+                sessionResult = await _refreshRepository.Refresh(sessionResult.Value);
                 if (sessionResult.IsSuccess && sessionResult.Value != default(Session))
                 {
                     _sessionManager.Init(sessionResult.Value, _refreshRepository);
@@ -59,13 +60,13 @@ namespace Novel.Feature.Screens.Load
             }
 
             // Try to load previously saved login credentials
-            Result<LoginCredentials> result = _storage.Restore<LoginCredentials>("Credentials");
+            Result<LoginCredentials> result = await _storage.Restore<LoginCredentials>("Credentials");
             
             if (result.IsSuccess && result.Value != default(LoginCredentials))
             {
 
                 // If refresh failed, attempt regular login
-                sessionResult = _loginRepository.Login(result.Value);
+                sessionResult = await _loginRepository.Login(result.Value);
                 if (sessionResult.IsSuccess && sessionResult.Value != default(Session))
                 {
                     _sessionManager.Init(sessionResult.Value, _refreshRepository);
@@ -80,13 +81,13 @@ namespace Novel.Feature.Screens.Load
             var password = StringUtils.GenerateRandomString();
             LoginCredentials credentials = new LoginCredentials(login, password);
 
-            sessionResult = _registerRepository.Register(credentials);
+            sessionResult = await _registerRepository.Register(credentials);
             if (sessionResult.IsSuccess && sessionResult.Value != default(Session))
             {
                 _sessionManager.Init(sessionResult.Value, _refreshRepository);
 
                 // Persist credentials for next launch
-                Result saveResult = _storage.Save("Credentials", credentials);
+                Result saveResult = await _storage.Save("Credentials", credentials);
                 if (!saveResult.IsSuccess)
                 {
                     return saveResult; // Return save error
@@ -103,7 +104,7 @@ namespace Novel.Feature.Screens.Load
         /// Logs out the current user.
         /// </summary>
         /// <returns>Success result after logout</returns>
-        public Result Undo()
+        public async Task<Result> Undo()
         {
             _sessionManager.LogOut();
             return Result.Success();

@@ -10,7 +10,7 @@ namespace Core.Storage.Interfaces
 
     public interface IStorage
     {
-        public Result Save<T>(string tag, T value);
-        public Result<T> Restore<T>(string tag);
+        public Task<Result> Save<T>(string tag, T value);
+        public Task<Result<T>> Restore<T>(string tag);
     }
 }

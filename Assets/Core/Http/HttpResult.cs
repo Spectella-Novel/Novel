@@ -1,15 +1,18 @@
-﻿using Core.Shared;
+﻿using Core.Auth.Implementation;
+using Core.Shared;
+using System;
 using System.Collections.Generic;
 
 
 namespace Core.Http.Interfaces
 {
-    public abstract class HttpResult<T> : Result<T>
+    public class HttpResult<T> : Result<T>
     {
         Dictionary<string, string> headers;
 
-        protected HttpResult(bool isSuccess, string error = null) : base(isSuccess, error)
+        public HttpResult(bool isSeccess, T value, string error = null) : base(isSeccess, value, error)
         {
+            headers = new Dictionary<string, string>();
         }
 
         public void SetHeader(string key, string value)
@@ -20,5 +23,10 @@ namespace Core.Http.Interfaces
         {
             return headers[key];
         }
+
+        public static new HttpResult<T> Success(T value) => new(true, value);
+        public static new HttpResult<T> Failure(string error) => new(false, default, error);
+
+
     }
 }

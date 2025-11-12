@@ -8,16 +8,8 @@ using System.Threading.Tasks;
 
 namespace Core.Storage.Implementation
 {
-    internal class SecurityStorage : IStorage
+    internal class SecurityStorage : DefaultStorage
     {
-        public Result<T> Restore<T>(string tag)
-        {
-            throw new NotImplementedException();
-        }
 
-        public Result Save<T>(string tag, T value)
-        {
-            throw new NotImplementedException();
-        }
     }
 }

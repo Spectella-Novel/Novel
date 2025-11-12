@@ -16,7 +16,7 @@ Temp/
 Obj/
 *.unity3d
 *.unitypackage
-*.asset
+
 
 # Файлы и папки, связанные с редактором Unity
 Editor/
@@ -28,7 +28,7 @@ iOS/
 Windows/
 MacOS/
 Linux/
-
+ProjectSettings/
 # Другие файлы и папки, которые не следует отслеживать
 *.DS_Store
 Thumbs.db

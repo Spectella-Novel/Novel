@@ -1,15 +1,16 @@
 ﻿
-using Core.NetworkRepositories;
-using Core.NetworkRepositories.Interfaces;
+using Core.Auth.Interfaces;
 using Core.Shared;
+using System.Threading.Tasks;
 
 namespace Core.Auth.Implementation
 {
     public class RefreshRepository : IRefreshRepository
     {
-        Result<Session> IRefreshRepository.Refresh(Session session)
+        public async Task<Result<Session>> Refresh(Session session)
         {
-            throw new System.NotImplementedException();
+            await Task.Delay(3000);
+            return Result<Session>.Success( new MockSession());
         }
     }
 }

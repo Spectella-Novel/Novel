@@ -1,9 +1,9 @@
 using Core.Shared;
-using Core.NetworkRepositories.Interfaces;
-using Core.NetworkRepositories.Implementation;
 using System.Threading.Tasks;
+using Core.Auth.Interfaces;
+using Core.Auth.Implementation;
 
-namespace Core.NetworkRepositories
+namespace Core.Auth
 {
     interface ILoginRepository
     {

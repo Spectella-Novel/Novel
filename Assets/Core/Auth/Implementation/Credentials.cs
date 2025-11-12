@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Core.NetworkRepositories.Implementation
+namespace Core.Auth.Implementation
 {
 
     public class Credentials

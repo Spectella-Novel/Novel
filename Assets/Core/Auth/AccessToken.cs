@@ -1,13 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Core.NetworkRepositories
+namespace Core.Auth
 {
-    internal class AccessToken
+    public class AccessToken : Token
     {
-
+        public AccessToken(string value, DateTime expires) : base(value, expires)
+        {
+        }
     }
 }
